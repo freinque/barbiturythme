@@ -3,19 +3,25 @@
  **U**: interact 
  **Rythme**: get new rhythms, with perhaps some exotic touch 
 
+
 **BarBitURythme** is a Pyhton module for reading .wav audio data files, 
 extracting their rhythm sequences, 'learning' from both their short 
 and long term 'patterns' and generating new sequences of similar 'style'.
 
+
 By Francois Charest <freinque.prof@gmail.com> 
 and Arst D.H. Neio <arstdashneio@gmail.com>
 
+
 ## Examples
-[Encoding/transcription example](https://github.com/freinque/barbiturythme/html/bbur_reader_test_0.0.4.html)
-[Learning/generation example](https://github.com/freinque/barbiturythme/html/bbur_gener_test_0.0.4.html)
+
+[Encoding/transcription example](http://freinque.github.io/barbiturythme/html/bbur_reader_test_0.0.4.html)
+
+[Learning/generation example](http://freinque.github.io/barbiturythme/html/bbur_gener_test_0.0.4.html)
+
 
 ## Documentation
-[https://github.com/freinque/barbiturythme/docs/index.html](https://github.com/freinque/barbiturythme/docs/index.html)
+[freinque.github.io/barbiturythme/docs/html/index.html](http://freinque.github.io/barbiturythme/docs/html/index.html)
 
 ## Using: 
 
