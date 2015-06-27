@@ -1,0 +1,176 @@
+virtual_keyboard real time MIDI plugin for Csound
+PortAudio real-time audio module for Csound
+PortMIDI real time MIDI plugin for Csound
+0dBFS level = 32768.0
+Csound version 5.17 (double samples) Apr 12 2013
+libsndfile-1.0.25
+orchname:  hh_00.orc
+rtmidi: PortMIDI module enabled
+graph init 
+rtaudio: PortAudio module enabled ... using blocking interface
+RAWWAVE_PATH: /usr/share/stk/rawwaves/
+Parsing successful!
+Elapsed time at end of orchestra compile: real: 0.007s, CPU: 0.010s
+sorting score ...
+	... done
+Elapsed time at end of score sort: real: 0.008s, CPU: 0.010s
+Csound version 5.17 (double samples) Apr 12 2013
+displays suppressed
+0dBFS level = 32768.0
+orch now loaded
+audio buffered in 256 sample-frame blocks
+writing 1024-byte blks of shorts to hh_00.wav (WAV)
+SECTION 1:
+ftable 1:
+deferred alloc
+WARNING: kick.wav sr = 96000, orch sr = 44100.0
+audio sr = 96000, monaural
+opening WAV infile kick.wav
+  defer length 68721
+ftable 2:
+deferred alloc
+WARNING: snare.wav sr = 96000, orch sr = 44100.0
+audio sr = 96000, monaural
+opening WAV infile snare.wav
+  defer length 42709
+ftable 3:
+deferred alloc
+WARNING: hihat.wav sr = 96000, orch sr = 44100.0
+audio sr = 96000, monaural
+opening WAV infile hihat.wav
+  defer length 8103
+B  0.000 ..  2.000 T  2.000 TT  2.000 M:      0.0      0.0
+new alloc for instr 3:
+B  2.000 ..  2.208 T  2.208 TT  2.208 M:  55262.8  55262.8
+	 number of samples out of range:       17       17
+B  2.208 ..  2.417 T  2.417 TT  2.417 M:  55262.8  55262.8
+	 number of samples out of range:       17       17
+B  2.417 ..  2.625 T  2.625 TT  2.625 M:  55262.8  55262.8
+	 number of samples out of range:       17       17
+B  2.625 ..  2.833 T  2.833 TT  2.833 M:  55262.8  55262.8
+	 number of samples out of range:       17       17
+B  2.833 ..  3.042 T  3.042 TT  3.042 M:  55262.8  55262.8
+	 number of samples out of range:       17       17
+B  3.042 ..  3.250 T  3.250 TT  3.250 M:  55262.8  55262.8
+	 number of samples out of range:       17       17
+B  3.250 ..  3.458 T  3.458 TT  3.458 M:  55262.8  55262.8
+	 number of samples out of range:       17       17
+new alloc for instr 1:
+new alloc for instr 2:
+B  3.458 ..  3.667 T  3.667 TT  3.667 M: 118061.4 118061.4
+	 number of samples out of range:     1398     1398
+B  3.667 ..  3.875 T  3.875 TT  3.875 M:  64873.1  64873.1
+	 number of samples out of range:       54       54
+new alloc for instr 1:
+B  3.875 ..  4.083 T  4.083 TT  4.083 M:  96579.3  96579.3
+	 number of samples out of range:     1172     1172
+new alloc for instr 1:
+B  4.083 ..  4.292 T  4.292 TT  4.292 M: 110711.8 110711.8
+	 number of samples out of range:      344      344
+B  4.292 ..  4.500 T  4.500 TT  4.500 M: 113442.2 113442.2
+	 number of samples out of range:      344      344
+B  4.500 ..  4.708 T  4.708 TT  4.708 M:  69004.5  69004.5
+	 number of samples out of range:       53       53
+B  4.708 ..  4.917 T  4.917 TT  4.917 M:  59989.8  59989.8
+	 number of samples out of range:       22       22
+B  4.917 ..  5.125 T  5.125 TT  5.125 M:  54632.9  54632.9
+	 number of samples out of range:       17       17
+B  5.125 ..  5.333 T  5.333 TT  5.333 M:  77458.0  77458.0
+	 number of samples out of range:      118      118
+B  5.333 ..  5.542 T  5.542 TT  5.542 M:  55190.1  55190.1
+	 number of samples out of range:       17       17
+B  5.542 ..  5.750 T  5.750 TT  5.750 M:  55264.8  55264.8
+	 number of samples out of range:       17       17
+B  5.750 ..  5.958 T  5.958 TT  5.958 M:  55262.8  55262.8
+	 number of samples out of range:       17       17
+B  5.958 ..  6.167 T  6.167 TT  6.167 M:  55262.8  55262.8
+	 number of samples out of range:       17       17
+B  6.167 ..  6.375 T  6.375 TT  6.375 M:  55262.8  55262.8
+	 number of samples out of range:       17       17
+B  6.375 ..  6.583 T  6.583 TT  6.583 M:  55262.8  55262.8
+	 number of samples out of range:       17       17
+B  6.583 ..  6.792 T  6.792 TT  6.792 M:  55262.8  55262.8
+	 number of samples out of range:       17       17
+B  6.792 ..  7.000 T  7.000 TT  7.000 M:  94022.5  94022.5
+	 number of samples out of range:     1502     1502
+B  7.000 ..  7.208 T  7.208 TT  7.208 M:  64364.6  64364.6
+	 number of samples out of range:       55       55
+B  7.208 ..  7.417 T  7.417 TT  7.417 M:  60619.6  60619.6
+	 number of samples out of range:       22       22
+B  7.417 ..  7.625 T  7.625 TT  7.625 M:  92863.8  92863.8
+	 number of samples out of range:     1526     1526
+B  7.625 ..  7.833 T  7.833 TT  7.833 M: 111907.3 111907.3
+	 number of samples out of range:      307      307
+B  7.833 ..  8.042 T  8.042 TT  8.042 M:  69699.0  69699.0
+	 number of samples out of range:       57       57
+B  8.042 ..  8.250 T  8.250 TT  8.250 M:  59894.1  59894.1
+	 number of samples out of range:       22       22
+B  8.250 ..  8.458 T  8.458 TT  8.458 M:  54632.9  54632.9
+	 number of samples out of range:       17       17
+B  8.458 ..  8.667 T  8.667 TT  8.667 M:  77458.0  77458.0
+	 number of samples out of range:      118      118
+B  8.667 ..  8.875 T  8.875 TT  8.875 M:  55318.3  55318.3
+	 number of samples out of range:       17       17
+B  8.875 ..  9.083 T  9.083 TT  9.083 M:  55266.1  55266.1
+	 number of samples out of range:       17       17
+B  9.083 ..  9.292 T  9.292 TT  9.292 M:  55262.8  55262.8
+	 number of samples out of range:       17       17
+B  9.292 ..  9.500 T  9.500 TT  9.500 M:  55262.8  55262.8
+	 number of samples out of range:       17       17
+B  9.500 ..  9.708 T  9.708 TT  9.708 M:  55262.8  55262.8
+	 number of samples out of range:       17       17
+B  9.708 ..  9.917 T  9.917 TT  9.917 M:  55262.8  55262.8
+	 number of samples out of range:       17       17
+B  9.917 .. 10.125 T 10.125 TT 10.125 M:  55262.8  55262.8
+	 number of samples out of range:       17       17
+B 10.125 .. 10.333 T 10.333 TT 10.333 M:  94022.5  94022.5
+	 number of samples out of range:     1502     1502
+B 10.333 .. 10.542 T 10.542 TT 10.542 M:  64364.6  64364.6
+	 number of samples out of range:       55       55
+B 10.542 .. 10.750 T 10.750 TT 10.750 M:  60532.5  60532.5
+	 number of samples out of range:       22       22
+B 10.750 .. 10.958 T 10.958 TT 10.958 M:  92863.8  92863.8
+	 number of samples out of range:     1526     1526
+B 10.958 .. 11.167 T 11.167 TT 11.167 M: 111878.2 111878.2
+	 number of samples out of range:      309      309
+B 11.167 .. 11.375 T 11.375 TT 11.375 M:  70087.3  70087.3
+	 number of samples out of range:       56       56
+B 11.375 .. 11.583 T 11.583 TT 11.583 M:  59870.2  59870.2
+	 number of samples out of range:       22       22
+B 11.583 .. 11.792 T 11.792 TT 11.792 M:  54624.3  54624.3
+	 number of samples out of range:       17       17
+B 11.792 .. 12.000 T 12.000 TT 12.000 M:  77458.0  77458.0
+	 number of samples out of range:      118      118
+B 12.000 .. 12.208 T 12.208 TT 12.208 M:  55190.1  55190.1
+	 number of samples out of range:       17       17
+B 12.208 .. 12.417 T 12.417 TT 12.417 M:  55264.9  55264.9
+	 number of samples out of range:       17       17
+B 12.417 .. 12.625 T 12.625 TT 12.625 M:  55262.8  55262.8
+	 number of samples out of range:       17       17
+B 12.625 .. 12.833 T 12.833 TT 12.833 M:  55262.8  55262.8
+	 number of samples out of range:       17       17
+B 12.833 .. 13.042 T 13.042 TT 13.042 M:  55262.8  55262.8
+	 number of samples out of range:       17       17
+B 13.042 .. 13.250 T 13.250 TT 13.250 M:  55262.8  55262.8
+	 number of samples out of range:       17       17
+B 13.250 .. 13.458 T 13.458 TT 13.458 M:  94022.5  94022.5
+	 number of samples out of range:     1502     1502
+B 13.458 .. 13.667 T 13.667 TT 13.667 M: 111878.2 111878.2
+	 number of samples out of range:      309      309
+B 13.667 .. 13.875 T 13.875 TT 13.875 M:  70087.3  70087.3
+	 number of samples out of range:       56       56
+B 13.875 .. 14.083 T 14.083 TT 14.083 M:  59870.2  59870.2
+	 number of samples out of range:       22       22
+B 14.083 .. 14.292 T 14.292 TT 14.292 M:  78288.9  78288.9
+	 number of samples out of range:      119      119
+B 14.292 .. 15.125 T 15.125 TT 15.125 M:  94037.5  94037.5
+	 number of samples out of range:     1502     1502
+B 15.125 .. 15.209 T 15.209 TT 15.209 M:  55262.8  55262.8
+	 number of samples out of range:       17       17
+Score finished in csoundPerform().
+inactive allocs returned to freespace
+end of score.		   overall amps: 118061.4 118061.4
+	   overall samples out of range:    14761    14761
+0 errors in performance
+Elapsed time at end of performance: real: 0.102s, CPU: 0.100s
+512 1024 sample blks of shorts written to hh_00.wav (WAV)
