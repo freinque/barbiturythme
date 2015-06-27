@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<!-- saved from url=(0064)http://127.0.0.1:8888/b4e25a2c-df16-4198-9319-65362129ab6e/print -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>IPython Notebook</title>
+<link rel="stylesheet" href="./bbur_gener_test_0.0.4_files/jquery-ui.min.css" type="text/css">
+<link rel="stylesheet" href="./bbur_gener_test_0.0.4_files/boilerplate.css" type="text/css">
+<link rel="stylesheet" href="./bbur_gener_test_0.0.4_files/fbm.css" type="text/css">
+<link rel="stylesheet" href="./bbur_gener_test_0.0.4_files/page.css" type="text/css">
+
+
+<script type="text/javascript" src="./bbur_gener_test_0.0.4_files/MathJax.js" charset="utf-8"></script>
+
+<script type="text/javascript">
+// MathJax disabled, set as null to distingish from *missing* MathJax,
+// where it will be undefined, and should prompt a dialog later.
+window.mathjax_url = "/mathjax/MathJax.js";
+</script><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-family: serif; font-size: 85%; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 5px 0px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -khtml-border-radius: 5px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 1px 2em; background: transparent}
+.MathJax_MenuTitle {background-color: #CCCCCC; margin: -5px 0 0 0; text-align: center; font-style: italic; font-size: 80%; color: #444444; padding: 2px 0; overflow: hidden}
+.MathJax_MenuArrow {position: absolute; right: .5em; color: #666666}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuRadioCheck {position: absolute; left: .7em}
+.MathJax_MenuLabel {padding: 1px 2em 3px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #DDDDDD; margin: 4px 3px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: #606872; color: white}
+</style><style type="text/css">#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style>
+<link rel="stylesheet" href="http://127.0.0.1:8888/static/codemirror/lib/codemirror.css?v=63efb">
+<link rel="stylesheet" href="http://127.0.0.1:8888/static/codemirror/theme/ipython.css?v=fa49d">
+<link rel="stylesheet" href="http://127.0.0.1:8888/static/prettify/prettify.css?v=83f40">
+<link rel="stylesheet" href="./bbur_gener_test_0.0.4_files/notebook.css" type="text/css">
+<link rel="stylesheet" href="./bbur_gener_test_0.0.4_files/printnotebook.css" type="text/css">
+<link rel="stylesheet" href="./bbur_gener_test_0.0.4_files/renderedhtml.css" type="text/css">
+
+
+
+<style type="text/css">.MathJax_Display {text-align: center; margin: 0; position: relative; display: block; width: 100%}
+.MathJax .merror {color: black; border: 1px solid; padding: 1px 3px; font-family: serif; font-size: 80%; vertical-align: ; text-align: left}
+.MathJax_Preview {color: #888888}
+#MathJax_Tooltip {background-color: InfoBackground; color: InfoText; border: 1px solid black; box-shadow: 2px 2px 5px #AAAAAA; -webkit-box-shadow: 2px 2px 5px #AAAAAA; -moz-box-shadow: 2px 2px 5px #AAAAAA; -khtml-box-shadow: 2px 2px 5px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true'); padding: 3px 4px; position: absolute; left: 0; top: 0; width: auto; height: auto; display: none}
+.MathJax {display: inline; font-family: serif; font-style: normal; font-weight: normal; line-height: normal; font-size: 100%; font-size-adjust: none; text-indent: 0; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; border: 0; padding: 0; margin: 0}
+.MathJax img, .MathJax nobr, .MathJax a {border: 0; padding: 0; margin: 0; max-width: none; max-height: none; vertical-align: 0; line-height: normal; text-decoration: none}
+img.MathJax_strut {border: 0 !important; padding: 0 !important; margin: 0 !important; vertical-align: 0 !important}
+.MathJax span {display: inline; position: static; border: 0; padding: 0; margin: 0; vertical-align: 0; line-height: normal; text-decoration: none}
+.MathJax nobr {white-space: nowrap}
+.MathJax_Processing {visibility: hidden; position: fixed; width: 0; height: 0; overflow: hidden}
+.MathJax .MathJax_HitBox {cursor: text}
+#MathJax_Tooltip * {filter: none; background: transparent}
+#MathJax_getScales {font-family: STIXGeneral,STIXNonUnicode,STIXSizeOneSym}
+.MathJax .math span {font-family: STIXGeneral,STIXNonUnicode,STIXSizeOneSym}
+</style></head>
+<body data-project="/home/freinque/Dropbox/arst_neio/barbiturythme/notebooks" data-base-project-url="/" data-base-kernel-url="/" data-read-only="False" data-notebook-id="b4e25a2c-df16-4198-9319-65362129ab6e"><div style="visibility: hidden; overflow: hidden; position: absolute; top: 0px; height: 1px; width: auto; padding: 0px; border: 0px; margin: 0px; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal;"><div id="MathJax_Hidden"></div></div><div id="MathJax_Message" style="display: none;"></div>
+<div id="header" class="border-box-sizing ui-widget ui-widget-content" style="border-top-style: none; border-left-style: none; border-right-style: none;">
+<span id="ipython_notebook"><h1><a href="http://127.0.0.1:8888/" alt="dashboard"><img src="./bbur_gener_test_0.0.4_files/ipynblogo.png" alt="IPython Notebook"></a></h1></span>
+
+<span id="login_widget">
+
+</span>
+
+
+
+</div>
+<div id="site" class="border-box-sizing" style="display: block;">
+
+<div id="main_app" class="border-box-sizing ui-widget">
+<div id="notebook_panel" class="border-box-sizing ui-widget">
+<div id="notebook" class="border-box-sizing"><div class="cell text_cell border-box-sizing ui-widget-content ui-corner-all" tabindex="2"><div class="text_cell_input border-box-sizing" style="display: none;"><div class="CodeMirror CodeMirror-wrap"><div style="overflow: hidden; position: relative; width: 3px; height: 0px;"><textarea style="position: absolute; padding: 0; width: 1px; height: 1em" wrap="off" autocorrect="off" autocapitalize="off"></textarea></div><div class="CodeMirror-scroll cm-s-default" tabindex="-1"><div style="position: relative"><div style="position: relative"><div class="CodeMirror-gutter" style="display: none;"><div class="CodeMirror-gutter-text"></div></div><div class="CodeMirror-lines"><div style="position: relative; z-index: 0; outline: none;"><div style="position: absolute; width: 100%; height: 0; overflow: hidden; visibility: hidden; outline: 5px auto none"><pre><span>x</span></pre></div><pre class="CodeMirror-cursor">&nbsp;</pre><div style="position: relative; z-index: -1"></div><div></div></div></div></div></div></div></div></div><div class="text_cell_render border-box-sizing rendered_html" tabindex="-1"><h2>Example: <b>train</b> BarBitURythme and <b>interact</b> with it</h2></div></div><div class="cell text_cell border-box-sizing" tabindex="2"><div class="text_cell_input border-box-sizing" style="display: none;"><div class="CodeMirror CodeMirror-wrap"><div style="overflow: hidden; position: relative; width: 3px; height: 0px;"><textarea style="position: absolute; padding: 0; width: 1px; height: 1em" wrap="off" autocorrect="off" autocapitalize="off"></textarea></div><div class="CodeMirror-scroll cm-s-default" tabindex="-1"><div style="position: relative"><div style="position: relative"><div class="CodeMirror-gutter" style="display: none;"><div class="CodeMirror-gutter-text"></div></div><div class="CodeMirror-lines"><div style="position: relative; z-index: 0; outline: none;"><div style="position: absolute; width: 100%; height: 0; overflow: hidden; visibility: hidden; outline: 5px auto none"><pre><span>x</span></pre></div><pre class="CodeMirror-cursor">&nbsp;</pre><div style="position: relative; z-index: -1"></div><div></div></div></div></div></div></div></div></div><div class="text_cell_render border-box-sizing rendered_html" tabindex="-1"><p> This example illustrates how BarBitURythme can be used to<br>
+</p><ul>
+    <li> <b>read</b> a dataset of rhythm sequences,</li>
+    <li> <b>train</b> a model on those data, and</li>
+    <li> <b>generate new rhythms</b> based on the trained model.</li> 
+</ul>
+<p></p>
+
+<p>
+    Depending on whether the new sequences sound pleasing or not, the user may give some feedback to the model by <b>adding some</b> of the generated sequences 
+    to the dataset and retraining the model. Eventually, user specific preferences/style are taken into account in the model 
+and it is therefore more likely to generate sequences that sound good to the user.
+</p></div></div><div class="cell text_cell border-box-sizing" tabindex="2"><div class="text_cell_input border-box-sizing" style="display: none;"><div class="CodeMirror CodeMirror-wrap"><div style="overflow: hidden; position: relative; width: 3px; height: 0px;"><textarea style="position: absolute; padding: 0; width: 1px; height: 1em" wrap="off" autocorrect="off" autocapitalize="off"></textarea></div><div class="CodeMirror-scroll cm-s-default" tabindex="-1"><div style="position: relative"><div style="position: relative"><div class="CodeMirror-gutter" style="display: none;"><div class="CodeMirror-gutter-text"></div></div><div class="CodeMirror-lines"><div style="position: relative; z-index: 0; outline: none;"><div style="position: absolute; width: 100%; height: 0; overflow: hidden; visibility: hidden; outline: 5px auto none"><pre><span>x</span></pre></div><pre class="CodeMirror-cursor">&nbsp;</pre><div style="position: relative; z-index: -1"></div><div></div></div></div></div></div></div></div></div><div class="text_cell_render border-box-sizing rendered_html" tabindex="-1"><p>Let's see:</p>
+
+<p>If barbiturythme is not in our system's python package repositories (sys.path), we add it.</p></div></div><div class="cell border-box-sizing code_cell vbox" tabindex="2"><div class="input hbox"><div class="prompt input_prompt">In&nbsp;[1]:</div><div class="input_area box-flex1"><div class="CodeMirror"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 5.71875px; left: 5.71875px;"><textarea style="position: absolute; padding: 0; width: 1px; height: 1em" wrap="off" autocorrect="off" autocapitalize="off"></textarea></div><div class="CodeMirror-scroll cm-s-ipython" tabindex="-1"><div style="position: relative; height: 46px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-gutter" style="display: none;"><div class="CodeMirror-gutter-text"></div></div><div class="CodeMirror-lines"><div style="position: relative; z-index: 0; outline: none;"><div style="position: absolute; width: 100%; height: 0; overflow: hidden; visibility: hidden; outline: 5px auto none"></div><pre class="CodeMirror-cursor" style="top: 0px; left: 0px;">&nbsp;</pre><div style="position: relative; z-index: -1; display: none;"></div><div><pre><span class="cm-keyword">import</span> <span class="cm-variable">os</span>, <span class="cm-variable">sys</span></pre><pre><span class="cm-variable">sys.path.append</span>( <span class="cm-string">'/'</span><span class="cm-variable">.join</span>(<span class="cm-variable">os.getcwd</span>()<span class="cm-variable">.split</span>(<span class="cm-string">'/'</span>)[:<span class="cm-operator">-</span><span class="cm-number">1</span>]) <span class="cm-operator">+</span> <span class="cm-string">'/barbiturythme'</span> )</pre></div></div></div></div></div></div></div></div></div><div class="output_wrapper"><div class="out_prompt_overlay prompt" title="click to expand outout; double click to hide output" style=""></div><div class="output vbox" style=""></div><div class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only output_collapsed vbox" role="button" title="click to expand outout" style="display: none;">. . .</div></div></div><div class="cell border-box-sizing code_cell vbox" tabindex="2"><div class="input hbox"><div class="prompt input_prompt">In&nbsp;[2]:</div><div class="input_area box-flex1"><div class="CodeMirror"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 5.71875px; left: 5.71875px;"><textarea style="position: absolute; padding: 0; width: 1px; height: 1em" wrap="off" autocorrect="off" autocapitalize="off"></textarea></div><div class="CodeMirror-scroll cm-s-ipython" tabindex="-1"><div style="position: relative; height: 80px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-gutter" style="display: none;"><div class="CodeMirror-gutter-text"></div></div><div class="CodeMirror-lines"><div style="position: relative; z-index: 0; outline: none;"><div style="position: absolute; width: 100%; height: 0; overflow: hidden; visibility: hidden; outline: 5px auto none"></div><pre class="CodeMirror-cursor" style="top: 0px; left: 0px;">&nbsp;</pre><div style="position: relative; z-index: -1; display: none;"></div><div><pre><span class="cm-keyword">import</span> <span class="cm-variable">numpy</span> <span class="cm-keyword">as</span> <span class="cm-variable">np</span></pre><pre><span class="cm-keyword">import</span> <span class="cm-variable">subprocess</span></pre><pre><span class="cm-keyword">import</span> <span class="cm-variable">barbiturythme</span></pre><pre><span class="cm-keyword">from</span> <span class="cm-variable">barbiturythme</span> <span class="cm-keyword">import</span> <span class="cm-variable">bbur_gene</span></pre></div></div></div></div></div></div></div></div></div><div class="output_wrapper"><div class="out_prompt_overlay prompt" title="click to expand outout; double click to hide output" style=""></div><div class="output vbox" style=""></div><div class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only output_collapsed vbox" role="button" title="click to expand outout" style="display: none;">. . .</div></div></div><div class="cell text_cell border-box-sizing" tabindex="2"><div class="text_cell_input border-box-sizing" style="display: none;"><div class="CodeMirror CodeMirror-wrap"><div style="overflow: hidden; position: relative; width: 3px; height: 0px;"><textarea style="position: absolute; padding: 0; width: 1px; height: 1em" wrap="off" autocorrect="off" autocapitalize="off"></textarea></div><div class="CodeMirror-scroll cm-s-default" tabindex="-1"><div style="position: relative"><div style="position: relative"><div class="CodeMirror-gutter" style="display: none;"><div class="CodeMirror-gutter-text"></div></div><div class="CodeMirror-lines"><div style="position: relative; z-index: 0; outline: none;"><div style="position: absolute; width: 100%; height: 0; overflow: hidden; visibility: hidden; outline: 5px auto none"><pre><span>x</span></pre></div><pre class="CodeMirror-cursor">&nbsp;</pre><div style="position: relative; z-index: -1"></div><div></div></div></div></div></div></div></div></div><div class="text_cell_render border-box-sizing rendered_html" tabindex="-1"><p>We load a dataset made of encoded 4bars (a 4bar will be set of 4 consecutive bars) of <b>trap</b> music (hip hop). (More precisely, it is loaded from ../data/io.data_folder_name/io.hh_00.dat)</p>
+
+<ul>
+    <li><b>io.data_folder_name</b> is the name of a folder in ../data</li>
+    <li><b>io.data_file_name</b> is the name of the files in ../data/data_folder_name</li>
+    <li><b>io.n_freq_int</b> is the number of percussive instruments encoded in those files, e.g. kick drum, snare and hihat </li>
+</ul></div></div><div class="cell border-box-sizing code_cell vbox" tabindex="2"><div class="input hbox"><div class="prompt input_prompt">In&nbsp;[3]:</div><div class="input_area box-flex1"><div class="CodeMirror"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 5.71875px; left: 5.71875px;"><textarea style="position: absolute; padding: 0; width: 1px; height: 1em" wrap="off" autocorrect="off" autocapitalize="off"></textarea></div><div class="CodeMirror-scroll cm-s-ipython" tabindex="-1"><div style="position: relative; height: 97px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-gutter" style="display: none;"><div class="CodeMirror-gutter-text"></div></div><div class="CodeMirror-lines"><div style="position: relative; z-index: 0; outline: none;"><div style="position: absolute; width: 100%; height: 0; overflow: hidden; visibility: hidden; outline: 5px auto none"></div><pre class="CodeMirror-cursor" style="top: 0px; left: 0px;">&nbsp;</pre><div style="position: relative; z-index: -1; display: none;"></div><div><pre><span class="cm-variable">io</span> = <span class="cm-variable">bbur_gene.bbur_io</span>()</pre><pre><span class="cm-variable">io.data_folder_name</span> = <span class="cm-string">'4bars_4beats_4subs_3bands'</span></pre><pre><span class="cm-variable">io.data_file_name</span> = <span class="cm-string">'hh_00'</span> </pre><pre><span class="cm-variable">io.n_freq_int</span> = <span class="cm-number">3</span></pre><pre><span class="cm-variable">observations</span>, <span class="cm-variable">observations_bin</span> = <span class="cm-variable">io.load_data</span>()</pre></div></div></div></div></div></div></div></div></div><div class="output_wrapper"><div class="out_prompt_overlay prompt" title="click to expand outout; double click to hide output" style=""></div><div class="output vbox" style=""></div><div class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only output_collapsed vbox" role="button" title="click to expand outout" style="display: none;">. . .</div></div></div><div class="cell text_cell border-box-sizing" tabindex="2"><div class="text_cell_input border-box-sizing" style="display: none;"><div class="CodeMirror CodeMirror-wrap"><div style="overflow: hidden; position: relative; width: 3px; height: 0px;"><textarea style="position: absolute; padding: 0; width: 1px; height: 1em" wrap="off" autocorrect="off" autocapitalize="off"></textarea></div><div class="CodeMirror-scroll cm-s-default" tabindex="-1"><div style="position: relative"><div style="position: relative"><div class="CodeMirror-gutter" style="display: none;"><div class="CodeMirror-gutter-text"></div></div><div class="CodeMirror-lines"><div style="position: relative; z-index: 0; outline: none;"><div style="position: absolute; width: 100%; height: 0; overflow: hidden; visibility: hidden; outline: 5px auto none"><pre><span>x</span></pre></div><pre class="CodeMirror-cursor">&nbsp;</pre><div style="position: relative; z-index: -1"></div><div></div></div></div></div></div></div></div></div><div class="text_cell_render border-box-sizing rendered_html" tabindex="-1"><p>To see how the data look like, we print the first bar (measure) of the 4bar number 0. In our encoding (see the <a href="https://github.com/freinque/barbiturythme/html/bbur_reader_test_0.0.4.html"><span>encoding notebook example</span></a> for more details), the fact that <b>observations_bin</b> has</p>
+
+<p>
+   </p><ul>
+    <li> [1,1,0] at the first time subdivision means that there's a kick and a snare onset at that moment </li>
+    <li> [0,1,1] at the fourth time subdivision means that there's a snare and a hihat onset at that moment</li>
+    <li>... </li>
+</ul>
+    <b>observations</b> is just made of integers having the above binary digits.
+<p></p></div></div><div class="cell border-box-sizing code_cell vbox" tabindex="2"><div class="input hbox"><div class="prompt input_prompt">In&nbsp;[4]:</div><div class="input_area box-flex1"><div class="CodeMirror"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 5.71875px; left: 5.71875px;"><textarea style="position: absolute; padding: 0; width: 1px; height: 1em" wrap="off" autocorrect="off" autocapitalize="off"></textarea></div><div class="CodeMirror-scroll cm-s-ipython" tabindex="-1"><div style="position: relative; height: 29px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-gutter" style="display: none;"><div class="CodeMirror-gutter-text"></div></div><div class="CodeMirror-lines"><div style="position: relative; z-index: 0; outline: none;"><div style="position: absolute; width: 100%; height: 0; overflow: hidden; visibility: hidden; outline: 5px auto none"></div><pre class="CodeMirror-cursor" style="top: 0px; left: 0px;">&nbsp;</pre><div style="position: relative; z-index: -1; display: none;"></div><div><pre><span class="cm-variable">observations_bin</span>[<span class="cm-number">0</span>][<span class="cm-number">0</span>:<span class="cm-number">16</span>], <span class="cm-variable">observations</span>[<span class="cm-number">0</span>][<span class="cm-number">0</span>:<span class="cm-number">16</span>]</pre></div></div></div></div></div></div></div></div></div><div class="output_wrapper"><div class="out_prompt_overlay prompt" title="click to expand outout; double click to hide output" style=""></div><div class="output vbox" style=""><div class="hbox output_area"><div class="prompt output_prompt">Out[4]:</div><div class="box-flex1 output_subarea output_text"><pre>(array([[1, 1, 0],
+       [0, 0, 0],
+       [0, 0, 0],
+       [0, 1, 1],
+       [0, 0, 0],
+       [0, 0, 0],
+       [1, 1, 0],
+       [0, 0, 0],
+       [0, 1, 0],
+       [0, 0, 0],
+       [0, 1, 0],
+       [1, 0, 0],
+       [0, 0, 0],
+       [0, 0, 0],
+       [0, 0, 0],
+       [0, 1, 0]]),
+ array([3, 0, 0, 6, 0, 0, 3, 0, 2, 0, 2, 1, 0, 0, 0, 2]))</pre></div></div></div><div class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only output_collapsed vbox" role="button" title="click to expand outout" style="display: none;">. . .</div></div></div><div class="cell text_cell border-box-sizing" tabindex="2"><div class="text_cell_input border-box-sizing" style="display: none;"><div class="CodeMirror CodeMirror-wrap"><div style="overflow: hidden; position: relative; width: 3px; height: 0px;"><textarea style="position: absolute; padding: 0; width: 1px; height: 1em" wrap="off" autocorrect="off" autocapitalize="off"></textarea></div><div class="CodeMirror-scroll cm-s-default" tabindex="-1"><div style="position: relative"><div style="position: relative"><div class="CodeMirror-gutter" style="display: none;"><div class="CodeMirror-gutter-text"></div></div><div class="CodeMirror-lines"><div style="position: relative; z-index: 0; outline: none;"><div style="position: absolute; width: 100%; height: 0; overflow: hidden; visibility: hidden; outline: 5px auto none"><pre><span>x</span></pre></div><pre class="CodeMirror-cursor">&nbsp;</pre><div style="position: relative; z-index: -1"></div><div></div></div></div></div></div></div></div></div><div class="text_cell_render border-box-sizing rendered_html" tabindex="-1"><h4>## 'short term' HMM model ##</h4></div></div><div class="cell text_cell border-box-sizing" tabindex="2"><div class="text_cell_input border-box-sizing" style="display: none;"><div class="CodeMirror CodeMirror-wrap"><div style="overflow: hidden; position: relative; width: 3px; height: 0px;"><textarea style="position: absolute; padding: 0; width: 1px; height: 1em" wrap="off" autocorrect="off" autocapitalize="off"></textarea></div><div class="CodeMirror-scroll cm-s-default" tabindex="-1"><div style="position: relative"><div style="position: relative"><div class="CodeMirror-gutter" style="display: none;"><div class="CodeMirror-gutter-text"></div></div><div class="CodeMirror-lines"><div style="position: relative; z-index: 0; outline: none;"><div style="position: absolute; width: 100%; height: 0; overflow: hidden; visibility: hidden; outline: 5px auto none"><pre><span>x</span></pre></div><pre class="CodeMirror-cursor">&nbsp;</pre><div style="position: relative; z-index: -1"></div><div></div></div></div></div></div></div></div></div><div class="text_cell_render border-box-sizing rendered_html" tabindex="-1"><p>We initialize a <b>hidden Markov model</b> with <b>2**io.n_freq_int</b> observable states and <b>n_markov_states</b> hidden states</p></div></div><div class="cell border-box-sizing code_cell vbox" tabindex="2"><div class="input hbox"><div class="prompt input_prompt">In&nbsp;[6]:</div><div class="input_area box-flex1"><div class="CodeMirror"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 5.71875px; left: 5.71875px;"><textarea style="position: absolute; padding: 0; width: 1px; height: 1em" wrap="off" autocorrect="off" autocapitalize="off"></textarea></div><div class="CodeMirror-scroll cm-s-ipython" tabindex="-1"><div style="position: relative; height: 80px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-gutter" style="display: none;"><div class="CodeMirror-gutter-text"></div></div><div class="CodeMirror-lines"><div style="position: relative; z-index: 0; outline: none;"><div style="position: absolute; width: 100%; height: 0; overflow: hidden; visibility: hidden; outline: 5px auto none"></div><pre class="CodeMirror-cursor" style="top: 0px; left: 0px;">&nbsp;</pre><div style="position: relative; z-index: -1; display: none;"></div><div><pre><span class="cm-variable">n_markov_states</span> = <span class="cm-number">70</span></pre><pre><span class="cm-variable">hmm</span> = <span class="cm-variable">io.load_hmm</span>( <span class="cm-variable">n_markov_states</span> )</pre><pre><span class="cm-variable">hmm.epochs</span> = <span class="cm-number">30</span></pre><pre><span class="cm-variable">hmm.init_model</span>()</pre></div></div></div></div></div></div></div></div></div><div class="output_wrapper"><div class="out_prompt_overlay prompt" title="click to expand outout; double click to hide output" style=""></div><div class="output vbox" style=""></div><div class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only output_collapsed vbox" role="button" title="click to expand outout" style="display: none;">. . .</div></div></div><div class="cell text_cell border-box-sizing" tabindex="2"><div class="text_cell_input border-box-sizing" style="display: none;"><div class="CodeMirror CodeMirror-wrap"><div style="overflow: hidden; position: relative; width: 3px; height: 0px;"><textarea style="position: absolute; padding: 0; width: 1px; height: 1em" wrap="off" autocorrect="off" autocapitalize="off"></textarea></div><div class="CodeMirror-scroll cm-s-default" tabindex="-1"><div style="position: relative"><div style="position: relative"><div class="CodeMirror-gutter" style="display: none;"><div class="CodeMirror-gutter-text"></div></div><div class="CodeMirror-lines"><div style="position: relative; z-index: 0; outline: none;"><div style="position: absolute; width: 100%; height: 0; overflow: hidden; visibility: hidden; outline: 5px auto none"><pre><span>x</span></pre></div><pre class="CodeMirror-cursor">&nbsp;</pre><div style="position: relative; z-index: -1"></div><div></div></div></div></div></div></div></div></div><div class="text_cell_render border-box-sizing rendered_html" tabindex="-1"><h4>## 'long term' PGBE (Paiement-Grandvalet-Bengio-Eck) model ##</h4></div></div><div class="cell text_cell border-box-sizing" tabindex="2"><div class="text_cell_input border-box-sizing" style="display: none;"><div class="CodeMirror CodeMirror-wrap"><div style="overflow: hidden; position: relative; width: 3px; height: 0px;"><textarea style="position: absolute; padding: 0; width: 1px; height: 1em" wrap="off" autocorrect="off" autocapitalize="off"></textarea></div><div class="CodeMirror-scroll cm-s-default" tabindex="-1"><div style="position: relative"><div style="position: relative"><div class="CodeMirror-gutter" style="display: none;"><div class="CodeMirror-gutter-text"></div></div><div class="CodeMirror-lines"><div style="position: relative; z-index: 0; outline: none;"><div style="position: absolute; width: 100%; height: 0; overflow: hidden; visibility: hidden; outline: 5px auto none"><pre><span>x</span></pre></div><pre class="CodeMirror-cursor">&nbsp;</pre><div style="position: relative; z-index: -1"></div><div></div></div></div></div></div></div></div></div><div class="text_cell_render border-box-sizing rendered_html" tabindex="-1"><p>We initialize a <b>PGBE</b> model which decomposes the 4bars into 4 equal length subsequences</p></div></div><div class="cell border-box-sizing code_cell vbox" tabindex="2"><div class="input hbox"><div class="prompt input_prompt">In&nbsp;[9]:</div><div class="input_area box-flex1"><div class="CodeMirror"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 5.71875px; left: 5.71875px;"><textarea style="position: absolute; padding: 0; width: 1px; height: 1em" wrap="off" autocorrect="off" autocapitalize="off"></textarea></div><div class="CodeMirror-scroll cm-s-ipython" tabindex="-1"><div style="position: relative; height: 63px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-gutter" style="display: none;"><div class="CodeMirror-gutter-text"></div></div><div class="CodeMirror-lines"><div style="position: relative; z-index: 0; outline: none;"><div style="position: absolute; width: 100%; height: 0; overflow: hidden; visibility: hidden; outline: 5px auto none"></div><pre class="CodeMirror-cursor" style="top: 0px; left: 0px;">&nbsp;</pre><div style="position: relative; z-index: -1; display: none;"></div><div><pre><span class="cm-variable">rho</span> = <span class="cm-number">4</span></pre><pre><span class="cm-variable">pgbe</span> = <span class="cm-variable">io.load_pgbe</span>( <span class="cm-variable">rho</span> )</pre><pre><span class="cm-variable">pgbe.fit_model</span>( <span class="cm-variable">observations_bin</span>, <span class="cm-number">1e-3</span> )</pre></div></div></div></div></div></div></div></div></div><div class="output_wrapper"><div class="out_prompt_overlay prompt" title="click to expand outout; double click to hide output" style=""></div><div class="output vbox" style=""><div class="hbox output_area"><div class="prompt"></div><div class="box-flex1 output_subarea output_text output_stream output_stdout"><pre>em iteration  0
+em iteration  1 , step =  0.000991545071278
+optimal p =  [[[ 0.          0.          0.          0.          0.          0.          0.
+    0.          0.          0.        ]
+  [ 0.          0.12702254  0.04755832  0.0403938   0.12702254  0.12702254
+    0.03552505  0.04397518  0.12702254  0.12702254]
+  [ 0.10736743  0.03854868  0.10736743  0.03854868  0.03854868  0.10736743
+    0.10736743  0.          0.10736743  0.10736743]
+  [ 0.06588809  0.20688767  0.1175668   0.20689001  0.06422097  0.20687908
+    0.11362744  0.06488643  0.06969147  0.20435806]]
+
+ [[ 0.          0.          0.          0.          0.          0.          0.
+    0.          0.          0.        ]
+  [ 0.          0.          0.          0.          0.          0.          0.
+    0.          0.          0.        ]
+  [ 0.25627891  1.          0.35644741  0.          0.25627942  0.35644935
+    0.25627903  0.35633148  0.25627892  0.2562789 ]
+  [ 0.          0.52105202  1.          0.21583229  0.52105202  0.21583229
+    0.21583229  0.52105202  0.52105202  0.21583229]]
+
+ [[ 0.          0.          0.          0.          0.          0.          0.
+    0.          0.          0.        ]
+  [ 0.          0.          0.          0.          0.          0.          0.
+    0.          0.          0.        ]
+  [ 0.          0.          0.          0.          0.          0.          0.
+    0.          0.          0.        ]
+  [ 0.          1.          0.45216003  0.45216003  0.45216003  0.45216003
+    0.45216003  0.5         0.5         0.5       ]]
+
+ [[ 0.          0.          0.          0.          0.          0.          0.
+    0.          0.          0.        ]
+  [ 0.          0.          0.          0.          0.          0.          0.
+    0.          0.          0.        ]
+  [ 0.          0.          0.          0.          0.          0.          0.
+    0.          0.          0.        ]
+  [ 0.          0.          0.          0.          0.          0.          0.
+    0.          0.          0.        ]]] 
+ optimal w =  [[[  1.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00
+     0.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00
+     0.00000000e+00   0.00000000e+00]
+  [  7.87087630e-02   1.78325352e-01   7.21648989e-02   1.78649882e-01
+     1.51932338e-01   2.20902847e-02   1.26341635e-01   8.27614059e-02
+     7.67003179e-02   3.23251222e-02]
+  [  1.16039237e-02   2.69764464e-01   1.05722224e-01   2.27290518e-01
+     2.19780358e-01   6.28730659e-03   1.00573071e-01   7.67666327e-71
+     2.89352848e-02   3.00428505e-02]
+  [  1.48215114e-01   1.02720170e-01   2.12556023e-01   5.99949106e-03
+     6.84963985e-02   6.54749194e-02   7.19991092e-02   1.97070578e-01
+     6.54712075e-02   6.19969900e-02]]
+
+ [[  1.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00
+     0.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00
+     0.00000000e+00   0.00000000e+00]
+  [  1.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00
+     0.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00
+     0.00000000e+00   0.00000000e+00]
+  [  9.03500543e-02   6.38292775e-02   1.43737706e-01   4.57975363e-01
+     9.04570534e-02   1.22737788e-02   3.18531655e-02   4.94670180e-02
+     3.16543919e-02   2.84021909e-02]
+  [  3.00280616e-01   3.14865711e-01   8.36649504e-18   1.24759964e-01
+     2.20607830e-02   4.57036787e-02   4.24184690e-02   3.61948252e-02
+     4.90607413e-02   6.46552124e-02]]
+
+ [[  1.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00
+     0.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00
+     0.00000000e+00   0.00000000e+00]
+  [  1.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00
+     0.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00
+     0.00000000e+00   0.00000000e+00]
+  [  1.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00
+     0.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00
+     0.00000000e+00   0.00000000e+00]
+  [  2.94044742e-01   3.86743742e-02   3.95454442e-01   5.24450840e-02
+     1.23801223e-01   6.58234529e-02   2.97566825e-02   0.00000000e+00
+     0.00000000e+00   0.00000000e+00]]
+
+ [[  1.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00
+     0.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00
+     0.00000000e+00   0.00000000e+00]
+  [  1.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00
+     0.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00
+     0.00000000e+00   0.00000000e+00]
+  [  1.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00
+     0.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00
+     0.00000000e+00   0.00000000e+00]
+  [  1.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00
+     0.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00
+     0.00000000e+00   0.00000000e+00]]]
+</pre></div></div></div><div class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only output_collapsed vbox" role="button" title="click to expand outout" style="display: none;">. . .</div></div></div><div class="cell text_cell border-box-sizing" tabindex="2"><div class="text_cell_input border-box-sizing" style="display: none;"><div class="CodeMirror CodeMirror-wrap"><div style="overflow: hidden; position: relative; width: 3px; height: 0px;"><textarea style="position: absolute; padding: 0; width: 1px; height: 1em" wrap="off" autocorrect="off" autocapitalize="off"></textarea></div><div class="CodeMirror-scroll cm-s-default" tabindex="-1"><div style="position: relative"><div style="position: relative"><div class="CodeMirror-gutter" style="display: none;"><div class="CodeMirror-gutter-text"></div></div><div class="CodeMirror-lines"><div style="position: relative; z-index: 0; outline: none;"><div style="position: absolute; width: 100%; height: 0; overflow: hidden; visibility: hidden; outline: 5px auto none"><pre><span>x</span></pre></div><pre class="CodeMirror-cursor">&nbsp;</pre><div style="position: relative; z-index: -1"></div><div></div></div></div></div></div></div></div></div><div class="text_cell_render border-box-sizing rendered_html" tabindex="-1"><h4>## combined 'short and long term' model ##</h4></div></div><div class="cell text_cell border-box-sizing" tabindex="2"><div class="text_cell_input border-box-sizing" style="display: none;"><div class="CodeMirror CodeMirror-wrap"><div style="overflow: hidden; position: relative; width: 3px; height: 0px;"><textarea style="position: absolute; padding: 0; width: 1px; height: 1em" wrap="off" autocorrect="off" autocapitalize="off"></textarea></div><div class="CodeMirror-scroll cm-s-default" tabindex="-1"><div style="position: relative"><div style="position: relative"><div class="CodeMirror-gutter" style="display: none;"><div class="CodeMirror-gutter-text"></div></div><div class="CodeMirror-lines"><div style="position: relative; z-index: 0; outline: none;"><div style="position: absolute; width: 100%; height: 0; overflow: hidden; visibility: hidden; outline: 5px auto none"><pre><span>x</span></pre></div><pre class="CodeMirror-cursor">&nbsp;</pre><div style="position: relative; z-index: -1"></div><div></div></div></div></div></div></div></div></div><div class="text_cell_render border-box-sizing rendered_html" tabindex="-1"><p>We initialize a combined <b>PGBEhmm</b> model</p></div></div><div class="cell border-box-sizing code_cell vbox" tabindex="2"><div class="input hbox"><div class="prompt input_prompt">In&nbsp;[10]:</div><div class="input_area box-flex1"><div class="CodeMirror"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 5.71875px; left: 5.71875px;"><textarea style="position: absolute; padding: 0; width: 1px; height: 1em" wrap="off" autocorrect="off" autocapitalize="off"></textarea></div><div class="CodeMirror-scroll cm-s-ipython" tabindex="-1"><div style="position: relative; height: 29px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-gutter" style="display: none;"><div class="CodeMirror-gutter-text"></div></div><div class="CodeMirror-lines"><div style="position: relative; z-index: 0; outline: none;"><div style="position: absolute; width: 100%; height: 0; overflow: hidden; visibility: hidden; outline: 5px auto none"></div><pre class="CodeMirror-cursor" style="top: 0px; left: 0px;">&nbsp;</pre><div style="position: relative; z-index: -1; display: none;"></div><div><pre><span class="cm-variable">pgbehmm</span> = <span class="cm-variable">barbiturythme.PGBEhmm</span>( <span class="cm-variable">pgbe</span>, <span class="cm-variable">hmm</span> )</pre></div></div></div></div></div></div></div></div></div><div class="output_wrapper"><div class="out_prompt_overlay prompt" title="click to expand outout; double click to hide output" style=""></div><div class="output vbox" style=""></div><div class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only output_collapsed vbox" role="button" title="click to expand outout" style="display: none;">. . .</div></div></div><div class="cell text_cell border-box-sizing" tabindex="2"><div class="text_cell_input border-box-sizing" style="display: none;"><div class="CodeMirror CodeMirror-wrap"><div style="overflow: hidden; position: relative; width: 3px; height: 0px;"><textarea style="position: absolute; padding: 0; width: 1px; height: 1em" wrap="off" autocorrect="off" autocapitalize="off"></textarea></div><div class="CodeMirror-scroll cm-s-default" tabindex="-1"><div style="position: relative"><div style="position: relative"><div class="CodeMirror-gutter" style="display: none;"><div class="CodeMirror-gutter-text"></div></div><div class="CodeMirror-lines"><div style="position: relative; z-index: 0; outline: none;"><div style="position: absolute; width: 100%; height: 0; overflow: hidden; visibility: hidden; outline: 5px auto none"><pre><span>x</span></pre></div><pre class="CodeMirror-cursor">&nbsp;</pre><div style="position: relative; z-index: -1"></div><div></div></div></div></div></div></div></div></div><div class="text_cell_render border-box-sizing rendered_html" tabindex="-1"><p>We initialize a rhythm sequence to be optimized.</p>
+
+<ul>
+    <li> <b>pgbehmm.lambda_</b> is the parameter that sets the balance between hmm and pgbe </li>
+    <li> <b>pgbehmm.x_past</b> is a rhythm sequence that we would like to extend </li>
+    <li> <b>pgbehmm.x_future</b> is set to a randomly chosen sequence </li>
+</ul></div></div><div class="cell border-box-sizing code_cell vbox" tabindex="2"><div class="input hbox"><div class="prompt input_prompt">In&nbsp;[11]:</div><div class="input_area box-flex1"><div class="CodeMirror"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 5.71875px; left: 5.71875px;"><textarea style="position: absolute; padding: 0; width: 1px; height: 1em" wrap="off" autocorrect="off" autocapitalize="off"></textarea></div><div class="CodeMirror-scroll cm-s-ipython" tabindex="-1"><div style="position: relative; height: 63px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-gutter" style="display: none;"><div class="CodeMirror-gutter-text"></div></div><div class="CodeMirror-lines"><div style="position: relative; z-index: 0; outline: none;"><div style="position: absolute; width: 100%; height: 0; overflow: hidden; visibility: hidden; outline: 5px auto none"></div><pre class="CodeMirror-cursor" style="top: 0px; left: 0px;">&nbsp;</pre><div style="position: relative; z-index: -1; display: none;"></div><div><pre><span class="cm-variable">pgbehmm.lambda_</span> = <span class="cm-number">5.0</span></pre><pre><span class="cm-variable">pgbehmm.set_x_past</span>( <span class="cm-variable">observations</span>[<span class="cm-operator">-</span><span class="cm-number">1</span>][<span class="cm-number">0</span>:<span class="cm-number">16</span>] ) </pre><pre><span class="cm-keyword">print</span> <span class="cm-variable">pgbehmm.x_past</span>, <span class="cm-variable">pgbehmm.x_future</span></pre></div></div></div></div></div></div></div></div></div><div class="output_wrapper"><div class="out_prompt_overlay prompt" title="click to expand outout; double click to hide output" style=""></div><div class="output vbox" style=""><div class="hbox output_area"><div class="prompt"></div><div class="box-flex1 output_subarea output_text output_stream output_stdout"><pre>[4 4 4 4 4 4 4 7 4 5 5 5 4 4 4 6] [2 3 0 7 7 6 3 0 2 3 0 0 0 3 7 0 6 7 7 3 2 6 3 3 0 7 4 3 3 6 4 4 4 2 6 7 4
+ 1 2 1 6 5 6 2 6 1 0 4]
+</pre></div></div></div><div class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only output_collapsed vbox" role="button" title="click to expand outout" style="display: none;">. . .</div></div></div><div class="cell text_cell border-box-sizing" tabindex="2"><div class="text_cell_input border-box-sizing" style="display: none;"><div class="CodeMirror CodeMirror-wrap"><div style="overflow: hidden; position: relative; width: 3px; height: 0px;"><textarea style="position: absolute; padding: 0; width: 1px; height: 1em" wrap="off" autocorrect="off" autocapitalize="off"></textarea></div><div class="CodeMirror-scroll cm-s-default" tabindex="-1"><div style="position: relative"><div style="position: relative"><div class="CodeMirror-gutter" style="display: none;"><div class="CodeMirror-gutter-text"></div></div><div class="CodeMirror-lines"><div style="position: relative; z-index: 0; outline: none;"><div style="position: absolute; width: 100%; height: 0; overflow: hidden; visibility: hidden; outline: 5px auto none"><pre><span>x</span></pre></div><pre class="CodeMirror-cursor">&nbsp;</pre><div style="position: relative; z-index: -1"></div><div></div></div></div></div></div></div></div></div><div class="text_cell_render border-box-sizing rendered_html" tabindex="-1"><p>We can then watch <b>move pgbehmm.x_future</b> move around until it finds the point <b>where the sequence pgbehmm.x_past + pgbehmm.x_future</b> is the <b>most likely</b> to appear under the combined PGBEhmm model</p></div></div><div class="cell border-box-sizing code_cell vbox" tabindex="2"><div class="input hbox"><div class="prompt input_prompt">In&nbsp;[12]:</div><div class="input_area box-flex1"><div class="CodeMirror"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 5.71875px; left: 5.71875px;"><textarea style="position: absolute; padding: 0; width: 1px; height: 1em" wrap="off" autocorrect="off" autocapitalize="off"></textarea></div><div class="CodeMirror-scroll cm-s-ipython" tabindex="-1"><div style="position: relative; height: 29px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-gutter" style="display: none;"><div class="CodeMirror-gutter-text"></div></div><div class="CodeMirror-lines"><div style="position: relative; z-index: 0; outline: none;"><div style="position: absolute; width: 100%; height: 0; overflow: hidden; visibility: hidden; outline: 5px auto none"></div><pre class="CodeMirror-cursor" style="top: 0px; left: 0px;">&nbsp;</pre><div style="position: relative; z-index: -1; display: none;"></div><div><pre><span class="cm-variable">pgbehmm.fit_x_future</span>()</pre></div></div></div></div></div></div></div></div></div><div class="output_wrapper"><div class="out_prompt_overlay prompt" title="click to expand outout; double click to hide output" style=""></div><div class="output vbox" style=""><div class="hbox output_area"><div class="prompt"></div><div class="box-flex1 output_subarea output_text output_stream output_stdout"><pre>now at  [5 4 5 5 0 0 4 7 5 5 5 5 5 0 0 4 0 4 0 4 0 0 0 7 0 0 7 0 0 0 0 0 4 4 0 0 6
+ 0 6 5 6 5 6 5 0 0 0 4]
+where pgbehmm log cond proba is  -320.530215038
+now at  [4 4 4 4 4 4 4 5 4 5 5 5 4 4 4 6 4 4 4 4 4 4 4 5 4 4 5 4 4 4 4 4 4 4 4 4 4
+ 4 5 5 4 4 6 5 0 0 0 4]
+where pgbehmm log cond proba is  -89.3550373223
+now at  [4 4 4 4 4 4 4 5 4 4 5 5 4 4 4 6 4 4 4 4 4 4 4 5 4 4 5 5 4 4 4 6 4 4 4 4 4
+ 4 5 5 4 4 6 5 0 0 0 4]
+where pgbehmm log cond proba is  -71.285693118
+now at  [4 4 4 4 4 4 4 5 4 4 5 5 4 4 4 6 4 4 4 4 4 4 4 5 4 4 5 5 4 4 4 6 4 4 4 4 4
+ 4 5 5 4 4 6 5 0 0 0 4]
+where pgbehmm log cond proba is  -71.285693118
+hmm + distance optimization 
+ended at  [4 4 4 4 4 4 4 5 4 4 5 5 4 4 4 6 4 4 4 4 4 4 4 5 4 4 5 5 4 4 4 6 4 4 4 4 4
+ 4 5 5 4 4 6 5 0 0 0 4]
+where pgbehmm log cond proba =  -71.285693118
+</pre></div></div></div><div class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only output_collapsed vbox" role="button" title="click to expand outout" style="display: none;">. . .</div></div></div><div class="cell text_cell border-box-sizing" tabindex="2"><div class="text_cell_input border-box-sizing" style="display: none;"><div class="CodeMirror CodeMirror-wrap"><div style="overflow: hidden; position: relative; width: 3px; height: 0px;"><textarea style="position: absolute; padding: 0; width: 1px; height: 1em" wrap="off" autocorrect="off" autocapitalize="off"></textarea></div><div class="CodeMirror-scroll cm-s-default" tabindex="-1"><div style="position: relative"><div style="position: relative"><div class="CodeMirror-gutter" style="display: none;"><div class="CodeMirror-gutter-text"></div></div><div class="CodeMirror-lines"><div style="position: relative; z-index: 0; outline: none;"><div style="position: absolute; width: 100%; height: 0; overflow: hidden; visibility: hidden; outline: 5px auto none"><pre><span>x</span></pre></div><pre class="CodeMirror-cursor">&nbsp;</pre><div style="position: relative; z-index: -1"></div><div></div></div></div></div></div></div></div></div><div class="text_cell_render border-box-sizing rendered_html" tabindex="-1"><p>Let's call this sequence <b> x_pred </b></p></div></div><div class="cell border-box-sizing code_cell vbox" tabindex="2"><div class="input hbox"><div class="prompt input_prompt">In&nbsp;[13]:</div><div class="input_area box-flex1"><div class="CodeMirror"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 5.71875px; left: 5.71875px;"><textarea style="position: absolute; padding: 0; width: 1px; height: 1em" wrap="off" autocorrect="off" autocapitalize="off"></textarea></div><div class="CodeMirror-scroll cm-s-ipython" tabindex="-1"><div style="position: relative; height: 63px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-gutter" style="display: none;"><div class="CodeMirror-gutter-text"></div></div><div class="CodeMirror-lines"><div style="position: relative; z-index: 0; outline: none;"><div style="position: absolute; width: 100%; height: 0; overflow: hidden; visibility: hidden; outline: 5px auto none"></div><pre class="CodeMirror-cursor" style="top: 0px; left: 0px;">&nbsp;</pre><div style="position: relative; z-index: -1; display: none;"></div><div><pre><span class="cm-variable">x_pred</span> = <span class="cm-variable">np.array</span>(<span class="cm-builtin">list</span>(<span class="cm-variable">pgbehmm.x_past</span>)<span class="cm-operator">+</span><span class="cm-builtin">list</span>(<span class="cm-variable">pgbehmm.x_future</span>))</pre><pre><span class="cm-variable">x_pred_bin</span> = <span class="cm-variable">np.array</span>([ <span class="cm-variable">bbur_gene.int_to_bin</span>( <span class="cm-variable">x</span>, <span class="cm-variable">io.n_freq_int</span>) <span class="cm-keyword">for</span> <span class="cm-variable">x</span> <span class="cm-operator">in</span> <span class="cm-variable">x_pred</span> ])</pre><pre><span class="cm-keyword">print</span> <span class="cm-variable">x_pred</span></pre></div></div></div></div></div></div></div></div></div><div class="output_wrapper"><div class="out_prompt_overlay prompt" title="click to expand outout; double click to hide output" style=""></div><div class="output vbox" style=""><div class="hbox output_area"><div class="prompt"></div><div class="box-flex1 output_subarea output_text output_stream output_stdout"><pre>[4 4 4 4 4 4 4 7 4 5 5 5 4 4 4 6 4 4 4 4 4 4 4 5 4 4 5 5 4 4 4 6 4 4 4 4 4
+ 4 4 5 4 4 5 5 4 4 4 6 4 4 4 4 4 4 5 5 4 4 6 5 0 0 0 4]
+</pre></div></div></div><div class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only output_collapsed vbox" role="button" title="click to expand outout" style="display: none;">. . .</div></div></div><div class="cell text_cell border-box-sizing" tabindex="2"><div class="text_cell_input border-box-sizing" style="display: none;"><div class="CodeMirror CodeMirror-wrap"><div style="overflow: hidden; position: relative; width: 3px; height: 0px;"><textarea style="position: absolute; padding: 0; width: 1px; height: 1em" wrap="off" autocorrect="off" autocapitalize="off"></textarea></div><div class="CodeMirror-scroll cm-s-default" tabindex="-1"><div style="position: relative"><div style="position: relative"><div class="CodeMirror-gutter" style="display: none;"><div class="CodeMirror-gutter-text"></div></div><div class="CodeMirror-lines"><div style="position: relative; z-index: 0; outline: none;"><div style="position: absolute; width: 100%; height: 0; overflow: hidden; visibility: hidden; outline: 5px auto none"><pre><span>x</span></pre></div><pre class="CodeMirror-cursor">&nbsp;</pre><div style="position: relative; z-index: -1"></div><div></div></div></div></div></div></div></div></div><div class="text_cell_render border-box-sizing rendered_html" tabindex="-1"><p>We print x_pred to a <b>csound score</b> that can be read by <b>csound</b></p></div></div><div class="cell border-box-sizing code_cell vbox" tabindex="2"><div class="input hbox"><div class="prompt input_prompt">In&nbsp;[14]:</div><div class="input_area box-flex1"><div class="CodeMirror"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 5.71875px; left: 5.71875px;"><textarea style="position: absolute; padding: 0; width: 1px; height: 1em" wrap="off" autocorrect="off" autocapitalize="off"></textarea></div><div class="CodeMirror-scroll cm-s-ipython" tabindex="-1"><div style="position: relative; height: 29px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-gutter" style="display: none;"><div class="CodeMirror-gutter-text"></div></div><div class="CodeMirror-lines"><div style="position: relative; z-index: 0; outline: none;"><div style="position: absolute; width: 100%; height: 0; overflow: hidden; visibility: hidden; outline: 5px auto none"></div><pre class="CodeMirror-cursor" style="top: 0px; left: 0px;">&nbsp;</pre><div style="position: relative; z-index: -1; display: none;"></div><div><pre><span class="cm-variable">io.print_score_3bands</span>( <span class="cm-variable">x_pred_bin</span> )</pre></div></div></div></div></div></div></div></div></div><div class="output_wrapper"><div class="out_prompt_overlay prompt" title="click to expand outout; double click to hide output" style=""></div><div class="output vbox" style=""></div><div class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only output_collapsed vbox" role="button" title="click to expand outout" style="display: none;">. . .</div></div></div><div class="cell text_cell border-box-sizing" tabindex="2"><div class="text_cell_input border-box-sizing" style="display: none;"><div class="CodeMirror CodeMirror-wrap"><div style="overflow: hidden; position: relative; width: 3px; height: 0px;"><textarea style="position: absolute; padding: 0; width: 1px; height: 1em" wrap="off" autocorrect="off" autocapitalize="off"></textarea></div><div class="CodeMirror-scroll cm-s-default" tabindex="-1"><div style="position: relative"><div style="position: relative"><div class="CodeMirror-gutter" style="display: none;"><div class="CodeMirror-gutter-text"></div></div><div class="CodeMirror-lines"><div style="position: relative; z-index: 0; outline: none;"><div style="position: absolute; width: 100%; height: 0; overflow: hidden; visibility: hidden; outline: 5px auto none"><pre><span>x</span></pre></div><pre class="CodeMirror-cursor">&nbsp;</pre><div style="position: relative; z-index: -1"></div><div></div></div></div></div></div></div></div></div><div class="text_cell_render border-box-sizing rendered_html" tabindex="-1"><p>We call the bash script <b>gener_wav.sh</b> in (../bin/) to <b>generate a .wav file</b> that represents x_pred and that is using Roland-808 kick drum, snare and hihat samples. We then <b>play</b> the file using <b>aplay</b>. </p>
+
+<p>*Note that csound could be replaced by a somewhat simple python script and aplay can be substituted by whatever program that plays .wav files. </p></div></div><div class="cell border-box-sizing code_cell vbox" tabindex="2"><div class="input hbox"><div class="prompt input_prompt">In&nbsp;[16]:</div><div class="input_area box-flex1"><div class="CodeMirror"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 5.71875px; left: 5.71875px;"><textarea style="position: absolute; padding: 0; width: 1px; height: 1em" wrap="off" autocorrect="off" autocapitalize="off"></textarea></div><div class="CodeMirror-scroll cm-s-ipython" tabindex="-1"><div style="position: relative; height: 216px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-gutter" style="display: none;"><div class="CodeMirror-gutter-text"></div></div><div class="CodeMirror-lines"><div style="position: relative; z-index: 0; outline: none;"><div style="position: absolute; width: 100%; height: 0; overflow: hidden; visibility: hidden; outline: 5px auto none"></div><pre class="CodeMirror-cursor" style="top: 0px; left: 0px;">&nbsp;</pre><div style="position: relative; z-index: -1; display: none;"></div><div><pre><span class="cm-variable">path_to_script</span> = <span class="cm-string">'/'</span><span class="cm-variable">.join</span>(<span class="cm-variable">os.getcwd</span>()<span class="cm-variable">.split</span>(<span class="cm-string">'/'</span>)[:<span class="cm-operator">-</span><span class="cm-number">1</span>]) <span class="cm-operator">+</span> <span class="cm-string">'/bin/gener_wav.sh'</span></pre><pre><span class="cm-variable">cmd</span> = <span class="cm-string">'xterm -hold -e '</span> <span class="cm-operator">+</span> <span class="cm-variable">path_to_script</span> <span class="cm-operator">+</span> <span class="cm-string">' '</span> <span class="cm-operator">+</span> <span class="cm-variable">io.data_file_name</span></pre><pre> </pre><pre><span class="cm-variable">p</span> = <span class="cm-variable">subprocess.Popen</span>(<span class="cm-variable">cmd</span> , <span class="cm-variable">shell</span>=<span class="cm-builtin">True</span>, <span class="cm-variable">stdout</span>=<span class="cm-variable">subprocess.PIPE</span>, <span class="cm-variable">stderr</span>=<span class="cm-variable">subprocess.PIPE</span>)</pre><pre> </pre><pre><span class="cm-variable">p.wait</span>()</pre><pre> </pre><pre><span class="cm-comment">#we play it</span></pre><pre><span class="cm-variable">cmd2</span> = <span class="cm-string">'xterm -hold -e aplay hh_00.wav'</span></pre><pre><span class="cm-variable">p2</span> = <span class="cm-variable">subprocess.Popen</span>(<span class="cm-variable">cmd2</span> , <span class="cm-variable">shell</span>=<span class="cm-builtin">True</span>, <span class="cm-variable">stdout</span>=<span class="cm-variable">subprocess.PIPE</span>, <span class="cm-variable">stderr</span>=<span class="cm-variable">subprocess.PIPE</span>)</pre><pre> </pre><pre><span class="cm-variable">p2.wait</span>()</pre></div></div></div></div></div></div></div></div></div><div class="output_wrapper"><div class="out_prompt_overlay prompt" title="click to expand outout; double click to hide output" style=""></div><div class="output vbox" style=""><div class="hbox output_area"><div class="prompt output_prompt">Out[16]:</div><div class="box-flex1 output_subarea output_text"><pre>0</pre></div></div></div><div class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only output_collapsed vbox" role="button" title="click to expand outout" style="display: none;">. . .</div></div></div><div class="cell text_cell border-box-sizing" tabindex="2"><div class="text_cell_input border-box-sizing" style="display: none;"><div class="CodeMirror CodeMirror-wrap"><div style="overflow: hidden; position: relative; width: 3px; height: 0px;"><textarea style="position: absolute; padding: 0; width: 1px; height: 1em" wrap="off" autocorrect="off" autocapitalize="off"></textarea></div><div class="CodeMirror-scroll cm-s-default" tabindex="-1"><div style="position: relative"><div style="position: relative"><div class="CodeMirror-gutter" style="display: none;"><div class="CodeMirror-gutter-text"></div></div><div class="CodeMirror-lines"><div style="position: relative; z-index: 0; outline: none;"><div style="position: absolute; width: 100%; height: 0; overflow: hidden; visibility: hidden; outline: 5px auto none"><pre><span>x</span></pre></div><pre class="CodeMirror-cursor">&nbsp;</pre><div style="position: relative; z-index: -1"></div><div></div></div></div></div></div></div></div></div><div class="text_cell_render border-box-sizing rendered_html" tabindex="-1"><p>If we happen to dance uncontrollably as we listen to it, we may want to <b>include it to our dataset</b> and retrain our 
+models on it.</p></div></div><div class="cell border-box-sizing code_cell vbox" tabindex="2"><div class="input hbox"><div class="prompt input_prompt">In&nbsp;[16]:</div><div class="input_area box-flex1"><div class="CodeMirror"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 5.71875px; left: 5.71875px;"><textarea style="position: absolute; padding: 0; width: 1px; height: 1em" wrap="off" autocorrect="off" autocapitalize="off"></textarea></div><div class="CodeMirror-scroll cm-s-ipython" tabindex="-1"><div style="position: relative; height: 29px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-gutter" style="display: none;"><div class="CodeMirror-gutter-text"></div></div><div class="CodeMirror-lines"><div style="position: relative; z-index: 0; outline: none;"><div style="position: absolute; width: 100%; height: 0; overflow: hidden; visibility: hidden; outline: 5px auto none"></div><pre class="CodeMirror-cursor" style="top: 0px; left: 0px;">&nbsp;</pre><div style="position: relative; z-index: -1; display: none;"></div><div><pre><span class="cm-variable">io.append_data</span>( [<span class="cm-variable">x_pred</span>] )</pre></div></div></div></div></div></div></div></div></div><div class="output_wrapper"><div class="out_prompt_overlay prompt" title="click to expand outout; double click to hide output" style=""></div><div class="output vbox" style=""></div><div class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only output_collapsed vbox" role="button" title="click to expand outout" style="display: none;">. . .</div></div></div><div class="cell text_cell border-box-sizing" tabindex="2"><div class="text_cell_input border-box-sizing" style="display: none;"><div class="CodeMirror CodeMirror-wrap"><div style="overflow: hidden; position: relative; width: 3px; height: 0px;"><textarea style="position: absolute; padding: 0; width: 1px; height: 1em" wrap="off" autocorrect="off" autocapitalize="off"></textarea></div><div class="CodeMirror-scroll cm-s-default" tabindex="-1"><div style="position: relative"><div style="position: relative"><div class="CodeMirror-gutter" style="display: none;"><div class="CodeMirror-gutter-text"></div></div><div class="CodeMirror-lines"><div style="position: relative; z-index: 0; outline: none;"><div style="position: absolute; width: 100%; height: 0; overflow: hidden; visibility: hidden; outline: 5px auto none"><pre><span>x</span></pre></div><pre class="CodeMirror-cursor">&nbsp;</pre><div style="position: relative; z-index: -1"></div><div></div></div></div></div></div></div></div></div><div class="text_cell_render border-box-sizing rendered_html" tabindex="-1"><p>We update the observations</p></div></div><div class="cell border-box-sizing code_cell vbox" tabindex="2"><div class="input hbox"><div class="prompt input_prompt">In&nbsp;[17]:</div><div class="input_area box-flex1"><div class="CodeMirror"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 5.71875px; left: 5.71875px;"><textarea style="position: absolute; padding: 0; width: 1px; height: 1em" wrap="off" autocorrect="off" autocapitalize="off"></textarea></div><div class="CodeMirror-scroll cm-s-ipython" tabindex="-1"><div style="position: relative; height: 29px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-gutter" style="display: none;"><div class="CodeMirror-gutter-text"></div></div><div class="CodeMirror-lines"><div style="position: relative; z-index: 0; outline: none;"><div style="position: absolute; width: 100%; height: 0; overflow: hidden; visibility: hidden; outline: 5px auto none"></div><pre class="CodeMirror-cursor" style="top: 0px; left: 0px;">&nbsp;</pre><div style="position: relative; z-index: -1; display: none;"></div><div><pre><span class="cm-variable">observations</span>, <span class="cm-variable">observations_bin</span> = <span class="cm-variable">io.load_data</span>()</pre></div></div></div></div></div></div></div></div></div><div class="output_wrapper"><div class="out_prompt_overlay prompt" title="click to expand outout; double click to hide output" style=""></div><div class="output vbox" style=""></div><div class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only output_collapsed vbox" role="button" title="click to expand outout" style="display: none;">. . .</div></div></div><div class="cell text_cell border-box-sizing" tabindex="2"><div class="text_cell_input border-box-sizing" style="display: none;"><div class="CodeMirror CodeMirror-wrap"><div style="overflow: hidden; position: relative; width: 3px; height: 0px;"><textarea style="position: absolute; padding: 0; width: 1px; height: 1em" wrap="off" autocorrect="off" autocapitalize="off"></textarea></div><div class="CodeMirror-scroll cm-s-default" tabindex="-1"><div style="position: relative"><div style="position: relative"><div class="CodeMirror-gutter" style="display: none;"><div class="CodeMirror-gutter-text"></div></div><div class="CodeMirror-lines"><div style="position: relative; z-index: 0; outline: none;"><div style="position: absolute; width: 100%; height: 0; overflow: hidden; visibility: hidden; outline: 5px auto none"><pre><span>x</span></pre></div><pre class="CodeMirror-cursor">&nbsp;</pre><div style="position: relative; z-index: -1"></div><div></div></div></div></div></div></div></div></div><div class="text_cell_render border-box-sizing rendered_html" tabindex="-1"><p>We update the model parameters (and save them to the relevant files)</p></div></div><div class="cell border-box-sizing code_cell vbox" tabindex="2"><div class="input hbox"><div class="prompt input_prompt">In&nbsp;[20]:</div><div class="input_area box-flex1"><div class="CodeMirror"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 5.71875px; left: 5.71875px;"><textarea style="position: absolute; padding: 0; width: 1px; height: 1em" wrap="off" autocorrect="off" autocapitalize="off"></textarea></div><div class="CodeMirror-scroll cm-s-ipython" tabindex="-1"><div style="position: relative; height: 80px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-gutter" style="display: none;"><div class="CodeMirror-gutter-text"></div></div><div class="CodeMirror-lines"><div style="position: relative; z-index: 0; outline: none;"><div style="position: absolute; width: 100%; height: 0; overflow: hidden; visibility: hidden; outline: 5px auto none"></div><pre class="CodeMirror-cursor" style="top: 0px; left: 0px;">&nbsp;</pre><div style="position: relative; z-index: -1; display: none;"></div><div><pre><span class="cm-variable">hmm.fit_model</span>( <span class="cm-variable">observations</span> )</pre><pre><span class="cm-variable">io.save_hmm</span>( <span class="cm-variable">hmm</span> )</pre><pre><span class="cm-variable">pgbe.fit_model</span>( <span class="cm-variable">observations_bin</span>, <span class="cm-number">1e-3</span> )</pre><pre><span class="cm-variable">io.save_pgbe</span>( <span class="cm-variable">pgbe</span> )</pre></div></div></div></div></div></div></div></div></div><div class="output_wrapper"><div class="out_prompt_overlay prompt" title="click to unscroll output; double click to hide" style="display: none;"></div><div class="output vbox output_scroll" style="display: none;"><div class="hbox output_area"><div class="prompt"></div><div class="box-flex1 output_subarea output_text output_stream output_stdout"><pre>Total training time: 173 secs Best epoch:  N/A
+trans matrix (self.model.A) is  [[  3.45126507e-083   6.00612341e-064   2.07337899e-090 ...,
+    2.41855942e-098   5.39263914e-002   2.07179613e-129]
+ [  1.11841348e-107   3.71075908e-013   3.78258343e-186 ...,
+    3.12915358e-037   0.00000000e+000   2.05491665e-194]
+ [  1.34345684e-125   3.55542095e-187   4.13271483e-001 ...,
+    1.54920059e-174   4.99718251e-014   7.37772963e-009]
+ ..., 
+ [  3.50066471e-077   5.82787918e-034   5.88169596e-207 ...,
+    2.18940951e-002   0.00000000e+000   8.32683018e-218]
+ [  5.53151448e-153   8.67509392e-098   5.58585540e-014 ...,
+    7.09541719e-165   4.94163523e-021   2.04877246e-018]
+ [  1.55169106e-223   2.68999556e-205   1.15955116e-006 ...,
+    2.03449206e-168   2.03840369e-229   5.75586974e-025]]
+markov to observed matrix (self.model.B) is  [[  5.44236334e-001   1.03164071e-110   0.00000000e+000   4.55763666e-001
+    9.20805137e-089   0.00000000e+000   0.00000000e+000   0.00000000e+000]
+ [  5.87881153e-001   5.36122347e-046   2.53868981e-001   1.38322684e-033
+    1.58249866e-001   8.20980600e-070   5.25065682e-038   7.15146187e-071]
+ [  4.30934353e-002   1.65535996e-012   1.22669634e-174   3.09691159e-062
+    9.56906565e-001   7.68492115e-015   2.83225690e-014   3.79122374e-042]
+ [  1.00000000e+000   2.67634703e-023   6.31477198e-019   1.26348566e-093
+    2.99800351e-014   7.72748608e-043   1.30572640e-082   3.72367236e-135]
+ [  3.30894708e-001   6.07200151e-001   0.00000000e+000   4.04878336e-295
+    3.50673624e-016   6.19051416e-002   1.47616408e-061   3.48038533e-126]
+ [  1.19368793e-013   1.26873334e-005   4.09305528e-102   1.91335249e-079
+    7.80919037e-007   9.99986532e-001   4.66725039e-023   1.50985637e-027]
+ [  2.37721000e-002   7.43976661e-055   5.95264556e-141   5.90357793e-106
+    9.76227900e-001   2.51417120e-011   1.14265625e-024   6.25344291e-051]
+ [  8.04479388e-001   2.14270512e-015   1.98529359e-014   1.25828554e-008
+    5.28170693e-002   1.28179856e-190   3.65468141e-021   1.42703530e-001]
+ [  9.24635590e-008   2.12973258e-029   1.91766660e-012   4.62673467e-114
+    9.99999878e-001   2.34636758e-008   5.58819277e-009   1.81925832e-046]
+ [  2.18483605e-019   1.68842634e-039   9.60669051e-001   4.90106809e-014
+    1.62780761e-027   2.77994945e-174   3.93309488e-002   7.71973949e-017]
+ [  2.47357795e-001   2.20729758e-013   4.28711239e-064   9.26949013e-083
+    7.52636799e-001   5.40671142e-006   6.06529272e-016   2.20800626e-048]
+ [  3.56902227e-007   6.23746365e-029   1.62099115e-002   6.59237058e-116
+    8.81859363e-001   8.33047808e-002   1.86255874e-002   1.86566354e-043]
+ [  1.70392884e-025   3.53413340e-045   1.83229930e-047   7.94379198e-104
+    2.34447702e-009   9.99999998e-001   7.74806843e-032   2.11882816e-044]
+ [  2.03193940e-001   2.59521709e-001   0.00000000e+000   0.00000000e+000
+    1.71276255e-001   3.66008096e-001   0.00000000e+000   0.00000000e+000]
+ [  9.28848205e-001   7.11517947e-002   6.76240073e-059   1.83261668e-058
+    6.86968547e-218   1.11327836e-313   4.24059284e-208   6.71487623e-241]
+ [  9.90429435e-001   5.35916843e-003   3.83692320e-003   4.31234655e-015
+    3.74473179e-004   0.00000000e+000   2.65053389e-215   3.05102089e-216]
+ [  9.99704969e-001   1.85761169e-027   2.78034099e-004   1.77218428e-103
+    1.69967415e-005   0.00000000e+000   8.41928038e-125   0.00000000e+000]
+ [  9.91206485e-001   1.79098164e-027   7.59514999e-003   2.87389568e-105
+    1.19836532e-003   0.00000000e+000   4.42652550e-126   0.00000000e+000]
+ [  7.20015135e-003   8.30842261e-063   6.11391854e-211   1.75084072e-137
+    9.92799848e-001   4.77965564e-010   6.23959519e-028   1.36999753e-067]
+ [  9.99582822e-001   4.17177672e-004   4.46085905e-071   2.93655685e-107
+    9.73003086e-150   2.18771983e-190   9.93922973e-177   7.08433594e-212]
+ [  1.61617484e-005   8.60625992e-001   9.33852124e-100   1.62207822e-093
+    1.39357846e-001   4.22036295e-314   7.57179257e-181   4.94065646e-324]
+ [  9.57751521e-007   1.00187468e-022   1.43499651e-072   2.59273420e-085
+    9.99992605e-001   6.43676608e-006   9.85586848e-023   4.23049810e-047]
+ [  6.53382297e-003   1.02632324e-009   2.19582254e-061   4.73544438e-081
+    9.93466176e-001   4.22174323e-012   1.05771737e-012   1.03463627e-047]
+ [  1.17329365e-016   4.69167827e-037   7.53815780e-080   9.23156282e-045
+    4.34901804e-003   1.90467221e-021   9.95650982e-001   2.37634443e-029]
+ [  8.97514000e-047   3.84149417e-112   7.54343109e-011   0.00000000e+000
+    1.71520310e-018   2.01515458e-061   1.00000000e+000   7.64846298e-112]
+ [  1.74595829e-014   2.38899379e-002   1.46484302e-118   2.82768067e-076
+    1.10711720e-008   9.76110051e-001   1.35745508e-019   1.53646661e-025]
+ [  6.41537729e-001   3.58462271e-001   1.60309405e-148   1.70163642e-095
+    4.50510963e-019   8.93623750e-294   4.11276109e-217   0.00000000e+000]
+ [  6.64049433e-001   3.40542384e-003   2.56847439e-004   2.81417728e-016
+    3.32288296e-001   0.00000000e+000   3.13051325e-211   8.62301782e-229]
+ [  1.00000000e+000   1.01322036e-057   6.73295424e-016   1.66415770e-043
+    2.75512029e-080   2.11307406e-227   3.92642525e-055   5.61212591e-139]
+ [  1.29062879e-002   9.87093712e-001   5.18891966e-019   9.46669803e-017
+    5.30608939e-041   4.31691040e-152   8.68855241e-025   3.43268757e-044]
+ [  8.65897220e-001   1.16623569e-001   1.74731393e-002   4.94217215e-014
+    6.07150275e-006   0.00000000e+000   1.55971973e-212   3.32842746e-230]
+ [  2.26553366e-002   3.38545705e-037   2.59894268e-128   1.49115914e-102
+    9.77312592e-001   3.20709816e-005   2.82095916e-030   2.44452687e-059]
+ [  1.31254242e-002   2.76254928e-039   2.80141434e-136   5.27993182e-085
+    9.86874254e-001   3.21375977e-007   1.14125614e-024   1.63209233e-028]
+ [  3.29193836e-008   4.48588422e-034   1.85165613e-119   1.18660917e-112
+    7.32389705e-001   2.67610262e-001   2.76217443e-036   4.69381957e-073]
+ [  1.60004096e-002   2.03303677e-038   3.92169788e-092   1.61513262e-136
+    9.83999589e-001   1.65269029e-009   9.52395771e-037   1.22485724e-066]
+ [  6.02999061e-002   9.30839762e-032   2.34842243e-007   4.33521322e-001
+    8.79875623e-002   8.33854354e-273   4.14133150e-001   4.05782390e-003]
+ [  1.00000000e+000   5.54637397e-067   2.89363600e-239   5.59541938e-172
+    6.40940829e-133   2.54852644e-111   6.20126374e-159   1.44405504e-183]
+ [  8.07987255e-035   7.42998527e-003   5.20390071e-119   1.46070881e-147
+    6.76490788e-003   9.85805107e-001   1.56394860e-044   2.06776181e-103]
+ [  1.00000000e+000   2.79313610e-063   5.09358067e-042   5.09502278e-041
+    7.96772757e-049   1.10470076e-147   4.36812890e-066   3.73345519e-062]
+ [  1.43011112e-005   2.08746058e-008   9.59640053e-001   3.16834660e-007
+    1.43311192e-007   5.96088552e-011   4.40051655e-007   4.03447247e-002]
+ [  1.00894392e-047   5.45957084e-069   5.45796303e-002   0.00000000e+000
+    7.25709836e-001   2.19710534e-001   3.93002540e-090   4.63363839e-203]
+ [  1.48163947e-003   1.02576765e-045   1.58623600e-069   7.79918391e-115
+    9.98518361e-001   1.12482889e-014   7.16105484e-031   2.09534723e-066]
+ [  9.98033917e-001   1.92175366e-003   4.42316346e-005   2.01163680e-016
+    9.79468958e-008   0.00000000e+000   6.78246932e-217   3.88909596e-240]
+ [  9.99999998e-001   1.38557861e-019   6.91729537e-010   1.07751132e-097
+    1.19230035e-009   3.49478682e-312   1.89410087e-120   0.00000000e+000]
+ [  1.09404737e-021   1.54882141e-002   9.14358208e-048   1.38809142e-108
+    5.78901167e-009   9.84511780e-001   2.43403572e-032   1.71936595e-048]
+ [  2.95767284e-002   1.36688865e-027   1.15431404e-151   2.83942541e-092
+    9.70423222e-001   4.92761465e-008   6.18768568e-020   3.08793916e-054]
+ [  2.86569294e-001   6.61846757e-001   5.37583028e-084   3.29180972e-074
+    5.15839494e-002   2.60516869e-059   1.18288395e-101   2.86642898e-097]
+ [  1.00000000e+000   0.00000000e+000   0.00000000e+000   0.00000000e+000
+    4.24814107e-093   4.11601274e-203   0.00000000e+000   0.00000000e+000]
+ [  9.91379403e-001   2.70125619e-024   7.91073357e-003   1.39437425e-094
+    7.09863098e-004   3.01876307e-281   1.18314984e-112   0.00000000e+000]
+ [  2.14569145e-019   1.72552852e-006   5.80333991e-101   1.29844372e-078
+    5.72053376e-011   9.99998274e-001   3.55695332e-018   3.00165216e-028]
+ [  3.31013635e-009   4.63884023e-002   1.89541250e-113   1.52362437e-069
+    8.95385558e-007   9.53610699e-001   6.73106424e-028   1.23912596e-027]
+ [  4.99804917e-001   4.96748633e-001   2.47467741e-269   1.17434173e-303
+    3.44645031e-003   5.26146518e-025   3.94167819e-138   1.14834998e-104]
+ [  9.94981070e-001   3.36356633e-003   1.59013027e-003   3.17317348e-016
+    6.52333308e-005   0.00000000e+000   4.87575306e-221   4.00852768e-228]
+ [  2.54227477e-001   5.12366799e-001   1.68511334e-150   0.00000000e+000
+    4.40886133e-004   2.32964838e-001   1.77617211e-060   5.15727405e-199]
+ [  2.71159210e-114   1.47231330e-001   7.18992899e-297   2.61293801e-169
+    1.54830189e-040   8.52768669e-001   3.68620607e-201   4.14422648e-010]
+ [  8.25431332e-002   1.98655678e-014   4.05525904e-016   2.45256957e-111
+    9.16659033e-001   7.96888384e-004   9.45433047e-007   1.27027330e-039]
+ [  1.00000000e+000   1.30382069e-061   9.13271256e-037   6.59898370e-032
+    2.30040955e-047   4.79635527e-099   2.81479621e-068   3.53207938e-061]
+ [  9.78144622e-001   9.53312132e-029   8.11510825e-003   6.87991177e-106
+    1.37402698e-002   0.00000000e+000   1.75641782e-127   0.00000000e+000]
+ [  3.10800523e-002   1.39362576e-008   9.60188783e-102   3.32402088e-060
+    9.68919934e-001   3.41495786e-013   1.60932729e-013   4.61956643e-038]
+ [  2.23782865e-001   1.31912988e-001   1.83287608e-001   5.19950795e-002
+    3.47219158e-003   1.04155868e-002   3.92155428e-001   2.97825305e-003]
+ [  1.00000000e+000   6.39744676e-049   9.55167557e-052   1.63146728e-067
+    7.92758390e-092   8.16222801e-174   2.91283693e-105   2.86564877e-137]
+ [  9.57450997e-001   8.43867474e-223   0.00000000e+000   0.00000000e+000
+    1.11060695e-154   4.25490033e-002   0.00000000e+000   0.00000000e+000]
+ [  1.68729709e-037   1.00027496e-037   1.93966628e-001   7.30504809e-151
+    8.06033372e-001   4.54595298e-062   1.32778630e-021   3.01034198e-320]
+ [  8.26756808e-051   3.71638230e-001   1.70920515e-226   2.29977661e-104
+    6.28348885e-001   1.28851983e-005   2.51201278e-130   6.23992502e-214]
+ [  1.00000000e+000   4.92820178e-052   3.01200562e-024   5.28459997e-045
+    5.12636421e-066   1.05698169e-164   7.44652373e-072   8.67926583e-124]
+ [  1.46447066e-014   2.12485644e-047   1.30945546e-182   1.05258225e-002
+    1.60121113e-013   1.63424993e-013   5.08861009e-005   9.89423291e-001]
+ [  1.82879584e-001   8.19772874e-016   0.00000000e+000   0.00000000e+000
+    4.73756540e-001   3.43363876e-001   1.16898305e-267   0.00000000e+000]
+ [  9.98563514e-001   2.16951257e-004   9.49961169e-004   2.38691641e-004
+    2.21236959e-005   4.50950503e-008   7.63630717e-006   1.07660343e-006]
+ [  1.15177918e-102   0.00000000e+000   0.00000000e+000   0.00000000e+000
+    1.00000000e+000   4.01467706e-010   3.74711942e-065   8.14117930e-088]
+ [  1.07473608e-025   1.23343554e-002   6.63961538e-127   4.70167753e-157
+    1.33259746e-017   5.03840330e-001   4.83825315e-001   1.03823985e-095]]
+em iteration  0
+em iteration  1 , step =  0.058865126145
+em iteration  2 , step =  0.0185805604116
+em iteration  3 , step =  0.0149623901736
+em iteration  4 , step =  0.0114505357356
+em iteration  5 , step =  0.0087535011895
+em iteration  6 , step =  0.0066967974451
+em iteration  7 , step =  0.00515435537742
+em iteration  8 , step =  0.00401174481056
+em iteration  9 , step =  0.00325674865655
+em iteration  10 , step =  0.002726379636
+em iteration  11 , step =  0.00230709943026
+em iteration  12 , step =  0.00198975227497
+em iteration  13 , step =  0.00173360522287
+em iteration  14 , step =  0.00152428245015
+em iteration  15 , step =  0.00135848833486
+em iteration  16 , step =  0.00123721844281
+em iteration  17 , step =  0.00114256504239
+em iteration  18 , step =  0.00106704351846
+em iteration  19 , step =  0.00100212657373
+em iteration  20 , step =  0.000948851475793
+optimal p =  [[[ 0.          0.          0.          0.          0.          0.          0.
+    0.          0.          0.        ]
+  [ 0.          0.12726485  0.05513441  0.0390271   0.12726484  0.12726485
+    0.03390895  0.04440047  0.12726484  0.12726485]
+  [ 0.1091732   0.04140803  0.1091732   0.04140803  0.04140803  0.1091732
+    0.1091732   0.          0.1091732   0.1091732 ]
+  [ 0.08016342  0.20554449  0.15221103  0.20568378  0.08016258  0.20508812
+    0.08344546  0.0801629   0.0801661   0.19875315]]
+
+ [[ 0.          0.          0.          0.          0.          0.          0.
+    0.          0.          0.        ]
+  [ 0.          0.          0.          0.          0.          0.          0.
+    0.          0.          0.        ]
+  [ 0.25529741  1.          0.35683078  0.          0.25560653  0.35701361
+    0.25536799  0.34875461  0.25530498  0.2552935 ]
+  [ 0.          0.52105202  1.          0.21583378  0.52105202  0.21583104
+    0.21583122  0.52105202  0.52105202  0.215831  ]]
+
+ [[ 0.          0.          0.          0.          0.          0.          0.
+    0.          0.          0.        ]
+  [ 0.          0.          0.          0.          0.          0.          0.
+    0.          0.          0.        ]
+  [ 0.          0.          0.          0.          0.          0.          0.
+    0.          0.          0.        ]
+  [ 0.          1.          0.45214608  0.45214608  0.45214608  0.45214608
+    0.45214608  0.5         0.5         0.5       ]]
+
+ [[ 0.          0.          0.          0.          0.          0.          0.
+    0.          0.          0.        ]
+  [ 0.          0.          0.          0.          0.          0.          0.
+    0.          0.          0.        ]
+  [ 0.          0.          0.          0.          0.          0.          0.
+    0.          0.          0.        ]
+  [ 0.          0.          0.          0.          0.          0.          0.
+    0.          0.          0.        ]]] 
+ optimal w =  [[[  1.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00
+     0.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00
+     0.00000000e+00   0.00000000e+00]
+  [  4.93199445e-02   1.81997639e-01   7.61375510e-02   1.85409344e-01
+     1.55061109e-01   2.25451941e-02   1.32820375e-01   8.54382220e-02
+     7.82798218e-02   3.29907994e-02]
+  [  1.10874375e-02   2.74507519e-01   1.01016569e-01   2.31286787e-01
+     2.23644582e-01   6.00746102e-03   9.60966026e-02   1.49995905e-45
+     2.76473866e-02   2.87056549e-02]
+  [  1.93038822e-01   1.05201216e-01   8.08208584e-02   6.14101927e-03
+     8.90935074e-02   6.71827380e-02   4.73969202e-02   2.56494973e-01
+     8.52129227e-02   6.94170233e-02]]
+
+ [[  1.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00
+     0.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00
+     0.00000000e+00   0.00000000e+00]
+  [  1.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00
+     0.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00
+     0.00000000e+00   0.00000000e+00]
+  [  8.85480344e-02   6.38363652e-02   1.47531366e-01   4.57968632e-01
+     8.86528237e-02   1.25977470e-02   3.12178483e-02   5.07884215e-02
+     3.10230481e-02   2.78357135e-02]
+  [  3.00280616e-01   3.14865711e-01   2.79965419e-10   1.24759964e-01
+     2.20607830e-02   4.57036787e-02   4.24184690e-02   3.61948252e-02
+     4.90607413e-02   6.46552124e-02]]
+
+ [[  1.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00
+     0.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00
+     0.00000000e+00   0.00000000e+00]
+  [  1.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00
+     0.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00
+     0.00000000e+00   0.00000000e+00]
+  [  1.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00
+     0.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00
+     0.00000000e+00   0.00000000e+00]
+  [  2.94021101e-01   3.86870720e-02   3.95460927e-01   5.24459441e-02
+     1.23803253e-01   6.58245324e-02   2.97571705e-02   0.00000000e+00
+     0.00000000e+00   0.00000000e+00]]
+
+ [[  1.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00
+     0.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00
+     0.00000000e+00   0.00000000e+00]
+  [  1.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00
+     0.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00
+     0.00000000e+00   0.00000000e+00]
+  [  1.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00
+     0.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00
+     0.00000000e+00   0.00000000e+00]
+  [  1.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00
+     0.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00
+     0.00000000e+00   0.00000000e+00]]]
+</pre></div></div></div><div class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only output_collapsed vbox" role="button" title="click to expand outout" style="">. . .</div></div></div><div class="cell text_cell border-box-sizing" tabindex="2"><div class="text_cell_input border-box-sizing" style="display: none;"><div class="CodeMirror CodeMirror-wrap"><div style="overflow: hidden; position: relative; width: 3px; height: 0px;"><textarea style="position: absolute; padding: 0; width: 1px; height: 1em" wrap="off" autocorrect="off" autocapitalize="off"></textarea></div><div class="CodeMirror-scroll cm-s-default" tabindex="-1"><div style="position: relative"><div style="position: relative"><div class="CodeMirror-gutter" style="display: none;"><div class="CodeMirror-gutter-text"></div></div><div class="CodeMirror-lines"><div style="position: relative; z-index: 0; outline: none;"><div style="position: absolute; width: 100%; height: 0; overflow: hidden; visibility: hidden; outline: 5px auto none"><pre><span>x</span></pre></div><pre class="CodeMirror-cursor">&nbsp;</pre><div style="position: relative; z-index: -1"></div><div></div></div></div></div></div></div></div></div><div class="text_cell_render border-box-sizing rendered_html" tabindex="-1"><p>The PGBEhmm has now been updated and we generate a new sample </p></div></div><div class="cell border-box-sizing code_cell vbox" tabindex="2"><div class="input hbox"><div class="prompt input_prompt">In&nbsp;[23]:</div><div class="input_area box-flex1"><div class="CodeMirror"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 5.71875px; left: 5.71875px;"><textarea style="position: absolute; padding: 0; width: 1px; height: 1em" wrap="off" autocorrect="off" autocapitalize="off"></textarea></div><div class="CodeMirror-scroll cm-s-ipython" tabindex="-1"><div style="position: relative; height: 63px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-gutter" style="display: none;"><div class="CodeMirror-gutter-text"></div></div><div class="CodeMirror-lines"><div style="position: relative; z-index: 0; outline: none;"><div style="position: absolute; width: 100%; height: 0; overflow: hidden; visibility: hidden; outline: 5px auto none"></div><pre class="CodeMirror-cursor" style="top: 0px; left: 0px;">&nbsp;</pre><div style="position: relative; z-index: -1; display: none;"></div><div><pre><span class="cm-variable">pgbehmm.set_x_past</span>( <span class="cm-variable">observations</span>[<span class="cm-operator">-</span><span class="cm-number">10</span>][<span class="cm-number">0</span>:<span class="cm-number">16</span>] ) </pre><pre><span class="cm-keyword">print</span> <span class="cm-variable">pgbehmm.x_past</span>, <span class="cm-variable">pgbehmm.x_future</span></pre><pre><span class="cm-variable">pgbehmm.fit_x_future</span>()</pre></div></div></div></div></div></div></div></div></div><div class="output_wrapper"><div class="out_prompt_overlay prompt" title="click to expand outout; double click to hide output" style=""></div><div class="output vbox" style=""><div class="hbox output_area"><div class="prompt"></div><div class="box-flex1 output_subarea output_text output_stream output_stdout"><pre>[5 5 5 4 5 4 4 6 4 4 4 4 4 4 4 4] [2 7 1 6 3 2 2 0 1 4 6 5 1 7 2 2 2 0 2 5 5 5 7 5 3 6 2 4 5 5 5 6 3 0 3 3 5
+ 3 7 6 4 1 0 0 3 4 4 5]
+now at  [4 4 5 5 5 4 4 6 4 4 6 4 1 5 4 4 5 5 5 5 5 4 5 4 4 0 4 4 1 5 5 5 5 5 4 4 4
+ 4 4 6 4 4 4 4 5 4 4 4]
+where pgbehmm log cond proba is  -143.469976327
+now at  [5 4 5 5 5 4 4 4 4 4 6 4 1 5 4 4 5 5 5 4 4 4 4 6 4 4 4 4 5 5 4 4 5 5 5 4 5
+ 4 4 6 4 4 4 4 4 4 4 4]
+where pgbehmm log cond proba is  -95.6889079239
+now at  [4 4 5 5 6 4 4 4 4 4 4 5 5 5 4 4 5 5 5 4 5 4 4 6 4 4 4 4 4 5 4 4 5 5 5 4 5
+ 4 4 6 4 4 4 4 4 4 4 4]
+where pgbehmm log cond proba is  -74.9877813347
+now at  [4 4 5 5 5 4 5 4 4 4 4 4 4 5 4 4 5 5 5 4 5 4 4 6 4 4 4 4 4 5 4 4 5 5 5 4 5
+ 4 4 6 4 4 4 4 4 4 4 4]
+where pgbehmm log cond proba is  -68.2638488874
+now at  [4 4 5 5 5 4 5 4 4 6 4 4 4 5 4 4 5 5 5 4 5 4 4 6 4 4 4 4 4 5 4 4 5 5 5 4 5
+ 4 4 6 4 4 4 4 4 4 4 4]
+where pgbehmm log cond proba is  -67.7482993833
+now at  [4 4 5 5 5 4 5 4 4 6 4 4 4 5 4 4 5 5 5 4 5 4 4 6 4 4 4 4 4 5 4 4 5 5 5 4 5
+ 4 4 6 4 4 4 4 4 4 4 4]
+where pgbehmm log cond proba is  -67.7482993833
+hmm + distance optimization 
+ended at  [4 4 5 5 5 4 5 4 4 6 4 4 4 5 4 4 5 5 5 4 5 4 4 6 4 4 4 4 4 5 4 4 5 5 5 4 5
+ 4 4 6 4 4 4 4 4 4 4 4]
+where pgbehmm log cond proba =  -67.7482993833
+</pre></div></div></div><div class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only output_collapsed vbox" role="button" title="click to expand outout" style="display: none;">. . .</div></div></div><div class="cell text_cell border-box-sizing" tabindex="2"><div class="text_cell_input border-box-sizing" style="display: none;"><div class="CodeMirror CodeMirror-wrap"><div style="overflow: hidden; position: relative; width: 3px; height: 0px;"><textarea style="position: absolute; padding: 0; width: 1px; height: 1em" wrap="off" autocorrect="off" autocapitalize="off"></textarea></div><div class="CodeMirror-scroll cm-s-default" tabindex="-1"><div style="position: relative"><div style="position: relative"><div class="CodeMirror-gutter" style="display: none;"><div class="CodeMirror-gutter-text"></div></div><div class="CodeMirror-lines"><div style="position: relative; z-index: 0; outline: none;"><div style="position: absolute; width: 100%; height: 0; overflow: hidden; visibility: hidden; outline: 5px auto none"><pre><span>x</span></pre></div><pre class="CodeMirror-cursor">&nbsp;</pre><div style="position: relative; z-index: -1"></div><div></div></div></div></div></div></div></div></div><div class="text_cell_render border-box-sizing rendered_html" tabindex="-1"><p>And so on.</p></div></div><div class="end_space" style="height: 30%;"></div></div>
+</div>
+</div>
+
+</div>
+<script src="./bbur_gener_test_0.0.4_files/jquery-1.7.1.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="./bbur_gener_test_0.0.4_files/jquery-ui.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="./bbur_gener_test_0.0.4_files/namespace.js" type="text/javascript" charset="utf-8"></script>
+<script src="./bbur_gener_test_0.0.4_files/page.js" type="text/javascript" charset="utf-8"></script>
+<script src="./bbur_gener_test_0.0.4_files/loginwidget.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="./bbur_gener_test_0.0.4_files/codemirror.js" charset="utf-8"></script>
+<script src="./bbur_gener_test_0.0.4_files/python.js" charset="utf-8"></script>
+<script src="./bbur_gener_test_0.0.4_files/htmlmixed.js" charset="utf-8"></script>
+<script src="./bbur_gener_test_0.0.4_files/xml.js" charset="utf-8"></script>
+<script src="./bbur_gener_test_0.0.4_files/javascript.js" charset="utf-8"></script>
+<script src="./bbur_gener_test_0.0.4_files/css.js" charset="utf-8"></script>
+<script src="./bbur_gener_test_0.0.4_files/rst.js" charset="utf-8"></script>
+<script src="./bbur_gener_test_0.0.4_files/markdown.js" charset="utf-8"></script>
+<script src="./bbur_gener_test_0.0.4_files/Markdown.Converter.js" charset="utf-8"></script>
+<script src="./bbur_gener_test_0.0.4_files/prettify.js" charset="utf-8"></script>
+<script src="./bbur_gener_test_0.0.4_files/date.format.js" charset="utf-8"></script>
+<script src="./bbur_gener_test_0.0.4_files/events.js" type="text/javascript" charset="utf-8"></script>
+<script src="./bbur_gener_test_0.0.4_files/utils.js" type="text/javascript" charset="utf-8"></script>
+<script src="./bbur_gener_test_0.0.4_files/initmathjax.js" type="text/javascript" charset="utf-8"></script>
+<script src="./bbur_gener_test_0.0.4_files/outputarea.js" type="text/javascript" charset="utf-8"></script>
+<script src="./bbur_gener_test_0.0.4_files/cell.js" type="text/javascript" charset="utf-8"></script>
+<script src="./bbur_gener_test_0.0.4_files/codecell.js" type="text/javascript" charset="utf-8"></script>
+<script src="./bbur_gener_test_0.0.4_files/textcell.js" type="text/javascript" charset="utf-8"></script>
+<script src="./bbur_gener_test_0.0.4_files/kernel.js" type="text/javascript" charset="utf-8"></script>
+<script src="./bbur_gener_test_0.0.4_files/notebook.js" type="text/javascript" charset="utf-8"></script>
+<script src="./bbur_gener_test_0.0.4_files/printnotebookmain.js" type="text/javascript" charset="utf-8"></script>
+
+
+
+<div style="position: absolute; visibility: hidden; top: 0px; left: 0px; width: auto; padding: 0px; border: 0px; margin: 0px; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; font-size: 40px; font-weight: normal; font-style: normal; font-family: STIXSizeOneSym, sans-serif;">ˆ</div></body></html>
