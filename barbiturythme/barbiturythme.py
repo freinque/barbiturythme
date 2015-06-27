@@ -14,11 +14,12 @@ generating new sequences of similar 'style'.\n
 @author Francois Charest freinque.prof@gmail.com and Arst D.H. Neio arstdashneio@gmail.com
 
 \b Examples \n
-https://github.com/freinque/barbiturythme/html/bbur_reader_test_0.0.4.html \n
-https://github.com/freinque/barbiturythme/html/bbur_gener_test_0.0.4.html \n
+ \n
+http://freinque.github.io/barbiturythme/html/bbur_reader_test_0.0.4.html \n
+http://freinque.github.io/barbiturythme/html/bbur_gener_test_0.0.4.html \n
 \n
 \b Documentation \n
-https://github.com/freinque/barbiturythme/docs/index.html \n
+http://freinque.github.io/barbiturythme/docs/html/index.html \n
 \n
 \b Using: \n
 \n
